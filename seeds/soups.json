@@ -1,0 +1,125 @@
+[
+   {
+      "Sopas": "Consomes y caldos desgrasados",
+      "cantidad": 1,
+      "unidad": "taza        (240 ml)",
+      "Kcal": 11.25,
+      "proteinas": "-",
+      "lipidos": 1.25,
+      "Composición en Equivalente": "0.25 Grasa s/proteina"
+   },
+   {
+      "Sopas": "Sopas de verdura",
+      "cantidad": 1,
+      "unidad": "taza        (240 ml)",
+      "Kcal": 60,
+      "proteinas": 3,
+      "lipidos": 2.5,
+      "hidratos de carbono": 6,
+      "Composición en Equivalente": "1.5 Verduras"
+   },
+   {
+      "Sopas": "Cremas de verduras",
+      "cantidad": 1,
+      "unidad": "taza        (240 ml)",
+      "Kcal": 97,
+      "proteinas": 4.97,
+      "lipidos": 5.14,
+      "hidratos de carbono": 7.96,
+      "Composición en Equivalente": "1 Verduras"
+   },
+   {
+      "Sopas": "Sopas de cereal",
+      "cantidad": 1,
+      "unidad": "taza        (240 ml)",
+      "Kcal": 98.78,
+      "proteinas": 2.5,
+      "lipidos": 2.5,
+      "hidratos de carbono": 16,
+      "Composición en Equivalente": "0.25 Verduras"
+   },
+   {
+      "Sopas": "Sopas de cereal con verdura",
+      "cantidad": 1,
+      "unidad": "taza        (240 ml)",
+      "Kcal": 87.5,
+      "proteinas": 2.5,
+      "lipidos": 2.5,
+      "hidratos de carbono": 13.25,
+      "Composición en Equivalente": "0.5 verduras"
+   },
+   {
+      "Sopas": "Cremas de cereal",
+      "cantidad": 1,
+      "unidad": "taza        (240 ml)",
+      "Kcal": 150,
+      "proteinas": 6,
+      "lipidos": 6.5,
+      "hidratos de carbono": 17.25,
+      "Composición en Equivalente": "0.75 Cereal s/grasa"
+   },
+   {
+      "Sopas": "Sopas de leguminosas",
+      "cantidad": 1,
+      "unidad": "taza        (240 ml)",
+      "Kcal": 141.25,
+      "proteinas": 6.5,
+      "lipidos": 5.75,
+      "hidratos de carbono": 16,
+      "Composición en Equivalente": "0.25 Verduras"
+   },
+   {
+      "Sopas": "Caldos con carne",
+      "cantidad": 1,
+      "unidad": "taza        (240 ml)",
+      "Kcal": 51.25,
+      "proteinas": 4.5,
+      "lipidos": 2.75,
+      "hidratos de carbono": 2,
+      "Composición en Equivalente": "0.5 verduras"
+   },
+   {
+      "Sopas": "Sopas secas",
+      "cantidad": 1
+   },
+   {
+      "Sopas": "Arroz y pastas",
+      "cantidad": 1,
+      "unidad": "taza        (195 g)",
+      "Kcal": 168.75,
+      "proteinas": 4.5,
+      "lipidos": 2.5,
+      "hidratos de carbono": 31,
+      "Composición en Equivalente": "2 Cereal s/grasa"
+   },
+   {
+      "Sopas": "Arroz, pastas, tortillas con verdura",
+      "cantidad": 1,
+      "unidad": "taza        (195 g)",
+      "Kcal": 175,
+      "proteinas": 5,
+      "lipidos": 2.5,
+      "hidratos de carbono": 32,
+      "Composición en Equivalente": "0.5 Verduras"
+   },
+   {
+      "Sopas": "Arroz y pastas con carne y salsa cremosa",
+      "cantidad": 1,
+      "unidad": "taza        (210 g)",
+      "Kcal": 282.5,
+      "proteinas": 11,
+      "lipidos": 12.5,
+      "hidratos de carbono": 30,
+      "Composición en Equivalente": "2 Cereal s/grasa"
+   },
+   {
+      "Sopas": "Arroz, pastas, papas con salsa cremosa o fritos",
+      "cantidad": 1,
+      "unidad": "taza        (210 g)",
+      "Kcal": 207.5,
+      "proteinas": 4,
+      "lipidos": 7.5,
+      "hidratos de carbono": 30,
+      "Composición en Equivalente": "3 Cereal s/grasa"
+   }
+]

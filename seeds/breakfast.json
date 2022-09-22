@@ -1,0 +1,112 @@
+[
+   {
+      "Desayuno": "Cereal con leche y azúcar",
+      "cantidad": 1,
+      "unidad": "taza    (240ml)",
+      "Kcal": 260,
+      "proteinas": 11,
+      "lipidos": 8,
+      "hidratos de carbono": 37,
+      "Composición en Equivalente": "1 Cereal s/grasa"
+   },
+   {
+      "Desayuno": "Frutas con yogur",
+      "cantidad": 1,
+      "unidad": "taza    (160ml)",
+      "Kcal": 135,
+      "proteinas": 4.5,
+      "lipidos": 4,
+      "hidratos de carbono": 21,
+      "Composición en Equivalente": "1 Fruta"
+   },
+   {
+      "Desayuno": "Hot cakes, wafles, pan francés",
+      "cantidad": 2,
+      "unidad": "pieza     (100g)",
+      "Kcal": 270,
+      "proteinas": 4,
+      "lipidos": 10,
+      "hidratos de carbono": 40,
+      "Composición en Equivalente": "2 Cereal s/grasa"
+   },
+   {
+      "Desayuno": "Cereal con leche y fruta",
+      "cantidad": 1,
+      "unidad": "taza       (240ml)",
+      "Kcal": 270,
+      "proteinas": 11,
+      "lipidos": 8,
+      "hidratos de carbono": 39.5,
+      "Composición en Equivalente": "0.5 Fruta"
+   },
+   {
+      "Desayuno": "Tamal de dulce",
+      "cantidad": 1,
+      "unidad": "pieza     ",
+      "Kcal": 270,
+      "proteinas": 4,
+      "lipidos": 10,
+      "hidratos de carbono": 40,
+      "Composición en Equivalente": "2 Cereales c/grasa"
+   },
+   {
+      "Desayuno": "Huevo con verdura",
+      "cantidad": 1,
+      "unidad": "pieza          (85g)",
+      "Kcal": 110,
+      "proteinas": 8,
+      "lipidos": 7.5,
+      "hidratos de carbono": 2,
+      "Composición en Equivalente": "0.5 Verdura"
+   },
+   {
+      "Desayuno": "Huevo con embutidos",
+      "cantidad": 1,
+      "unidad": "pieza          (85g)",
+      "Kcal": 157.5,
+      "proteinas": 10.5,
+      "lipidos": 12.5,
+      "hidratos de carbono": "-",
+      "Composición en Equivalente": "1.5 AOAMAG"
+   },
+   {
+      "Desayuno": "Huevo con tortilla o papa y salsa",
+      "cantidad": 1,
+      "unidad": "pieza          (85g)",
+      "Kcal": 218.75,
+      "proteinas": 9.5,
+      "lipidos": 12.5,
+      "hidratos de carbono": 16,
+      "Composición en Equivalente": "0.25 Verdura"
+   },
+   {
+      "Desayuno": "Huevo con leguminosa",
+      "cantidad": 1,
+      "unidad": "pieza          (85g)",
+      "Kcal": 157.5,
+      "proteinas": 11,
+      "lipidos": 8,
+      "hidratos de carbono": 10,
+      "Composición en Equivalente": "0.5 Leguminosa"
+   },
+   {
+      "Desayuno": "Huevo con queso",
+      "cantidad": 1,
+      "unidad": "pieza          (85g)",
+      "Kcal": 125,
+      "proteinas": 10.5,
+      "lipidos": 9,
+      "hidratos de carbono": "-",
+      "Composición en Equivalente": "0.5 AOABAG"
+   },
+   {
+      "Desayuno": "Tortilla con salsa, crema y queso",
+      "cantidad": 1,
+      "unidad": "taza    (160ml)",
+      "Kcal": 270,
+      "proteinas": 9.5,
+      "lipidos": 10,
+      "hidratos de carbono": 34,
+      "Composición en Equivalente": "1 Verdura"
+   }
+]
