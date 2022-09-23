@@ -1,112 +1,112 @@
 [
    {
-      "Nombre": "Cereal con leche y azúcar",
+      "nombre": "Cereal con leche y azúcar",
       "cantidad": 1,
       "unidad": "taza    (240ml)",
       "Kcal": 260,
       "proteinas": 11,
       "lipidos": 8,
-      "hidratos de carbono": 37,
-      "Composición en Equivalente": "1 Cereal s/grasa"
+      "hidratos_de_carbono": 37,
+      "composicion_en_equivalente": "1 Cereal s/grasa"
    },
    {
-      "Nombre": "Frutas con yogur",
+      "nombre": "Frutas con yogur",
       "cantidad": 1,
       "unidad": "taza    (160ml)",
       "Kcal": 135,
       "proteinas": 4.5,
       "lipidos": 4,
-      "hidratos de carbono": 21,
-      "Composición en Equivalente": "1 Fruta"
+      "hidratos_de_carbono": 21,
+      "composicion_en_equivalente": "1 Fruta"
    },
    {
-      "Nombre": "Hot cakes, wafles, pan francés",
+      "nombre": "Hot cakes, wafles, pan francés",
       "cantidad": 2,
       "unidad": "pieza     (100g)",
       "Kcal": 270,
       "proteinas": 4,
       "lipidos": 10,
-      "hidratos de carbono": 40,
-      "Composición en Equivalente": "2 Cereal s/grasa"
+      "hidratos_de_carbono": 40,
+      "composicion_en_equivalente": "2 Cereal s/grasa"
    },
    {
-      "Nombre": "Cereal con leche y fruta",
+      "nombre": "Cereal con leche y fruta",
       "cantidad": 1,
       "unidad": "taza       (240ml)",
       "Kcal": 270,
       "proteinas": 11,
       "lipidos": 8,
-      "hidratos de carbono": 39.5,
-      "Composición en Equivalente": "0.5 Fruta"
+      "hidratos_de_carbono": 39.5,
+      "composicion_en_equivalente": "0.5 Fruta"
    },
    {
-      "Nombre": "Tamal de dulce",
+      "nombre": "Tamal de dulce",
       "cantidad": 1,
       "unidad": "pieza     ",
       "Kcal": 270,
       "proteinas": 4,
       "lipidos": 10,
-      "hidratos de carbono": 40,
-      "Composición en Equivalente": "2 Cereales c/grasa"
+      "hidratos_de_carbono": 40,
+      "composicion_en_equivalente": "2 Cereales c/grasa"
    },
    {
-      "Nombre": "Huevo con verdura",
+      "nombre": "Huevo con verdura",
       "cantidad": 1,
       "unidad": "pieza          (85g)",
       "Kcal": 110,
       "proteinas": 8,
       "lipidos": 7.5,
-      "hidratos de carbono": 2,
-      "Composición en Equivalente": "0.5 Verdura"
+      "hidratos_de_carbono": 2,
+      "composicion_en_equivalente": "0.5 Verdura"
    },
    {
-      "Nombre": "Huevo con embutidos",
+      "nombre": "Huevo con embutidos",
       "cantidad": 1,
       "unidad": "pieza          (85g)",
       "Kcal": 157.5,
       "proteinas": 10.5,
       "lipidos": 12.5,
-      "hidratos de carbono": "-",
-      "Composición en Equivalente": "1.5 AOAMAG"
+      "hidratos_de_carbono": "-",
+      "composicion_en_equivalente": "1.5 AOAMAG"
    },
    {
-      "Nombre": "Huevo con tortilla o papa y salsa",
+      "nombre": "Huevo con tortilla o papa y salsa",
       "cantidad": 1,
       "unidad": "pieza          (85g)",
       "Kcal": 218.75,
       "proteinas": 9.5,
       "lipidos": 12.5,
-      "hidratos de carbono": 16,
-      "Composición en Equivalente": "0.25 Verdura"
+      "hidratos_de_carbono": 16,
+      "composicion_en_equivalente": "0.25 Verdura"
    },
    {
-      "Nombre": "Huevo con leguminosa",
+      "nombre": "Huevo con leguminosa",
       "cantidad": 1,
       "unidad": "pieza          (85g)",
       "Kcal": 157.5,
       "proteinas": 11,
       "lipidos": 8,
-      "hidratos de carbono": 10,
-      "Composición en Equivalente": "0.5 Leguminosa"
+      "hidratos_de_carbono": 10,
+      "composicion_en_equivalente": "0.5 Leguminosa"
    },
    {
-      "Nombre": "Huevo con queso",
+      "nombre": "Huevo con queso",
       "cantidad": 1,
       "unidad": "pieza          (85g)",
       "Kcal": 125,
       "proteinas": 10.5,
       "lipidos": 9,
-      "hidratos de carbono": "-",
-      "Composición en Equivalente": "0.5 AOABAG"
+      "hidratos_de_carbono": "-",
+      "composicion_en_equivalente": "0.5 AOABAG"
    },
    {
-      "Nombre": "Tortilla con salsa, crema y queso",
+      "nombre": "Tortilla con salsa, crema y queso",
       "cantidad": 1,
       "unidad": "taza    (160ml)",
       "Kcal": 270,
       "proteinas": 9.5,
       "lipidos": 10,
-      "hidratos de carbono": 34,
-      "Composición en Equivalente": "1 Verdura"
+      "hidratos_de_carbono": 34,
+      "composicion_en_equivalente": "1 Verdura"
    }
 ]
