@@ -1,0 +1,34 @@
+{
+  "name": "food-fix",
+  "version": "1.0.0",
+  "description": "Webpage where you'll select recipees based on the calories you have to burn during the day",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidtc8/Food-fix.git"
+  },
+  "keywords": [
+    "food",
+    "fitness",
+    "love"
+  ],
+  "author": "David Vallejo, David Torres, Eduardo Pacheco, Antonio Garcia, Alberto Monroy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidtc8/Food-fix/issues"
+  },
+  "homepage": "https://github.com/davidtc8/Food-fix#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "joi": "^17.6.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.23.0",
+    "xlsx": "^0.18.5"
+  }
+}
