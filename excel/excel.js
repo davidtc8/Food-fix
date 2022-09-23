@@ -4,8 +4,6 @@ const fs = require('fs');
 // llame el file excell 
 const wb = xlsx.readFile('./alimentosClean3.xlsx', {cellDates: true});
 
-
-
 ////////////////////////////////////////////////////////////////
 
 // getting the first sheet 'BEBIDAS Y BEBIDAS ALCOHOLICAS'
