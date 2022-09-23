@@ -2,7 +2,7 @@ const xlsx = require('xlsx');
 const fs = require('fs');
 
 // llame el file excell 
-const wb = xlsx.readFile('./alimentosClean2.xlsx', {cellDates: true});
+const wb = xlsx.readFile('./alimentosClean3.xlsx', {cellDates: true});
 
 ////////////////////////////////////////////////////////////////
 
@@ -14,7 +14,7 @@ const databvs = xlsx.utils.sheet_to_json(bvs);
 
 console.log(databvs);
 
-fs.writeFileSync("./Seeds/beverages.json", JSON.stringify(databvs, null , 3));
+fs.writeFileSync("../seeds/beverages.json", JSON.stringify(databvs, null , 3));
 
 // // getting the second  sheet 'PLATILLOS DESAYUNO'
 
@@ -24,7 +24,7 @@ const databreakfast = xlsx.utils.sheet_to_json(breakfast);
 
 console.log(databreakfast);
 
-fs.writeFileSync("./Seeds/breakfast.json", JSON.stringify(databreakfast, null , 3));
+fs.writeFileSync("../seeds/breakfast.json", JSON.stringify(databreakfast, null , 3));
 
 
 // getting the Third  sheet 'GUARNICIONES'
@@ -36,7 +36,7 @@ const dataSides = xlsx.utils.sheet_to_json(sides);
 
 console.log(dataSides);
 
-fs.writeFileSync("./Seeds/sides.json", JSON.stringify(dataSides, null , 3));
+fs.writeFileSync("../seeds/sides.json", JSON.stringify(dataSides, null , 3));
 
 
 // getting the fourth  sheet 'SOPAS'
@@ -47,7 +47,7 @@ const dataSoups = xlsx.utils.sheet_to_json(soups);
 
 console.log(dataSoups);
 
-fs.writeFileSync("./Seeds/soups.json", JSON.stringify(dataSoups, null , 3));
+fs.writeFileSync("../seeds/soups.json", JSON.stringify(dataSoups, null , 3));
 
 
 // getting the fifht  sheet 'PLATOS FUERTES'
@@ -58,7 +58,7 @@ const datameals = xlsx.utils.sheet_to_json(meals);
 
 console.log(datameals);
 
-fs.writeFileSync("./Seeds/meal.json", JSON.stringify(datameals, null , 3));
+fs.writeFileSync("../seeds/meal.json", JSON.stringify(datameals, null , 3));
 
 
 // getting the sixth  sheet 'POSTRES'
@@ -69,4 +69,4 @@ const dataDessert = xlsx.utils.sheet_to_json(meals);
 
 console.log(dataDessert);
 
-fs.writeFileSync("./Seeds/desserts.json", JSON.stringify(dataDessert, null , 3));
+fs.writeFileSync("../seeds/desserts.json", JSON.stringify(dataDessert, null , 3));

@@ -1,6 +1,6 @@
 [
    {
-      "Sopas": "Consomes y caldos desgrasados",
+      "Nombre": "Consomes y caldos desgrasados",
       "cantidad": 1,
       "unidad": "taza        (240 ml)",
       "Kcal": 11.25,
@@ -9,7 +9,7 @@
       "Composición en Equivalente": "0.25 Grasa s/proteina"
    },
    {
-      "Sopas": "Sopas de verdura",
+      "Nombre": "Sopas de verdura",
       "cantidad": 1,
       "unidad": "taza        (240 ml)",
       "Kcal": 60,
@@ -19,7 +19,7 @@
       "Composición en Equivalente": "1.5 Verduras"
    },
    {
-      "Sopas": "Cremas de verduras",
+      "Nombre": "Cremas de verduras",
       "cantidad": 1,
       "unidad": "taza        (240 ml)",
       "Kcal": 97,
@@ -29,7 +29,7 @@
       "Composición en Equivalente": "1 Verduras"
    },
    {
-      "Sopas": "Sopas de cereal",
+      "Nombre": "Sopas de cereal",
       "cantidad": 1,
       "unidad": "taza        (240 ml)",
       "Kcal": 98.78,
@@ -39,7 +39,7 @@
       "Composición en Equivalente": "0.25 Verduras"
    },
    {
-      "Sopas": "Sopas de cereal con verdura",
+      "Nombre": "Sopas de cereal con verdura",
       "cantidad": 1,
       "unidad": "taza        (240 ml)",
       "Kcal": 87.5,
@@ -49,7 +49,7 @@
       "Composición en Equivalente": "0.5 verduras"
    },
    {
-      "Sopas": "Cremas de cereal",
+      "Nombre": "Cremas de cereal",
       "cantidad": 1,
       "unidad": "taza        (240 ml)",
       "Kcal": 150,
@@ -59,7 +59,7 @@
       "Composición en Equivalente": "0.75 Cereal s/grasa"
    },
    {
-      "Sopas": "Sopas de leguminosas",
+      "Nombre": "Sopas de leguminosas",
       "cantidad": 1,
       "unidad": "taza        (240 ml)",
       "Kcal": 141.25,
@@ -69,7 +69,7 @@
       "Composición en Equivalente": "0.25 Verduras"
    },
    {
-      "Sopas": "Caldos con carne",
+      "Nombre": "Caldos con carne",
       "cantidad": 1,
       "unidad": "taza        (240 ml)",
       "Kcal": 51.25,
@@ -79,11 +79,11 @@
       "Composición en Equivalente": "0.5 verduras"
    },
    {
-      "Sopas": "Sopas secas",
+      "Nombre": "Sopas secas",
       "cantidad": 1
    },
    {
-      "Sopas": "Arroz y pastas",
+      "Nombre": "Arroz y pastas",
       "cantidad": 1,
       "unidad": "taza        (195 g)",
       "Kcal": 168.75,
@@ -93,7 +93,7 @@
       "Composición en Equivalente": "2 Cereal s/grasa"
    },
    {
-      "Sopas": "Arroz, pastas, tortillas con verdura",
+      "Nombre": "Arroz, pastas, tortillas con verdura",
       "cantidad": 1,
       "unidad": "taza        (195 g)",
       "Kcal": 175,
@@ -103,7 +103,7 @@
       "Composición en Equivalente": "0.5 Verduras"
    },
    {
-      "Sopas": "Arroz y pastas con carne y salsa cremosa",
+      "Nombre": "Arroz y pastas con carne y salsa cremosa",
       "cantidad": 1,
       "unidad": "taza        (210 g)",
       "Kcal": 282.5,
@@ -113,7 +113,7 @@
       "Composición en Equivalente": "2 Cereal s/grasa"
    },
    {
-      "Sopas": "Arroz, pastas, papas con salsa cremosa o fritos",
+      "Nombre": "Arroz, pastas, papas con salsa cremosa o fritos",
       "cantidad": 1,
       "unidad": "taza        (210 g)",
       "Kcal": 207.5,

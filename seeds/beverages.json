@@ -1,6 +1,6 @@
 [
    {
-      "Bebidas": "agua de fruta",
+      "Nombre": "agua de fruta",
       "cantidad": 2,
       "unidad": "TAZA",
       "Kcal": 70,
@@ -10,7 +10,7 @@
       "Composición en Equivalente": "0.5 FRUTA"
    },
    {
-      "Bebidas": "agua de sabor",
+      "Nombre": "agua de sabor",
       "cantidad": 2,
       "unidad": "TAZA",
       "Kcal": 60,
@@ -20,7 +20,7 @@
       "Composición en Equivalente": "1.5 AZUCAR"
    },
    {
-      "Bebidas": "agua de verduras",
+      "Nombre": "agua de verduras",
       "cantidad": 2,
       "unidad": "TAZA",
       "Kcal": 52.5,
@@ -30,7 +30,7 @@
       "Composición en Equivalente": "0.5 VERDURA"
    },
    {
-      "Bebidas": "jugo de frutas natural",
+      "Nombre": "jugo de frutas natural",
       "cantidad": 1,
       "unidad": "TAZA",
       "Kcal": 120,
@@ -40,7 +40,7 @@
       "Composición en Equivalente": "2 FRUTAS"
    },
    {
-      "Bebidas": "jugo de fruta con verdura",
+      "Nombre": "jugo de fruta con verdura",
       "cantidad": 2,
       "unidad": "TAZA",
       "Kcal": 85,
@@ -50,7 +50,7 @@
       "Composición en Equivalente": "1 FRUTA"
    },
    {
-      "Bebidas": "refrescos y jugos industrializados",
+      "Nombre": "refrescos y jugos industrializados",
       "cantidad": 1,
       "unidad": "TAZA",
       "Kcal": 160,
@@ -60,7 +60,7 @@
       "Composición en Equivalente": "5 AZUCAR"
    },
    {
-      "Bebidas": "leche especial (soya/ omega)",
+      "Nombre": "leche especial (soya/ omega)",
       "cantidad": 1,
       "unidad": "TAZA",
       "Kcal": 150,
@@ -70,7 +70,7 @@
       "Composición en Equivalente": "1 LECHE ENTERA"
    },
    {
-      "Bebidas": "café o te con leche",
+      "Nombre": "café o te con leche",
       "cantidad": 1,
       "unidad": "TAZA",
       "Kcal": 77.5,
@@ -80,7 +80,7 @@
       "Composición en Equivalente": "0.25 LECHE ENTERA"
    },
    {
-      "Bebidas": "licuados de frutas",
+      "Nombre": "licuados de frutas",
       "cantidad": 1,
       "unidad": "TAZA",
       "Kcal": 200,
@@ -90,7 +90,7 @@
       "Composición en Equivalente": "0.5 FRUTA"
    },
    {
-      "Bebidas": "licuados de frutas con cereal",
+      "Nombre": "licuados de frutas con cereal",
       "cantidad": 1.5,
       "unidad": "TAZA",
       "Kcal": 280,
@@ -100,7 +100,7 @@
       "Composición en Equivalente": "1 FRUTA"
    },
    {
-      "Bebidas": "atole",
+      "Nombre": "atole",
       "cantidad": 1,
       "unidad": "TAZA",
       "Kcal": 110,
@@ -110,7 +110,7 @@
       "Composición en Equivalente": "1 CEREAL S/GRASA"
    },
    {
-      "Bebidas": "atole con leche",
+      "Nombre": "atole con leche",
       "cantidad": 1,
       "unidad": "TAZA",
       "Kcal": 185,
@@ -120,7 +120,7 @@
       "Composición en Equivalente": "1 CEREAL S/GRASA"
    },
    {
-      "Bebidas": "bebidas sin azúcar",
+      "Nombre": "bebidas sin azúcar",
       "cantidad": 1,
       "unidad": "TAZA",
       "Kcal": "-",
@@ -130,7 +130,7 @@
       "Composición en Equivalente": "1 ALIMENTO LIBRE"
    },
    {
-      "Bebidas": "alcohol con refresco",
+      "Nombre": "alcohol con refresco",
       "cantidad": 1,
       "Kcal": 190,
       "proteinas": "-",
@@ -140,7 +140,7 @@
       "Composición en Equivalente": "3 AZUCAR"
    },
    {
-      "Bebidas": "alcohol con verdura",
+      "Nombre": "alcohol con verdura",
       "cantidad": 1,
       "Kcal": 95,
       "proteinas": 2,
@@ -150,7 +150,7 @@
       "Composición en Equivalente": "1 VERDURA"
    },
    {
-      "Bebidas": "alcohol con leche",
+      "Nombre": "alcohol con leche",
       "cantidad": 1,
       "Kcal": 185,
       "proteinas": 4.5,
@@ -160,7 +160,7 @@
       "Composición en Equivalente": "0.5 LECHE ENTERA"
    },
    {
-      "Bebidas": "alcohol con fruta",
+      "Nombre": "alcohol con fruta",
       "cantidad": 1,
       "Kcal": 165,
       "proteinas": "-",
