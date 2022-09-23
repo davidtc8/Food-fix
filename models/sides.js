@@ -19,7 +19,7 @@ Sides.init(
       type: DataTypes.DECIMAL,
       allowNull: false,
     },
-    unit: {
+    Unit: {
       type: DataTypes.STRING,
       allowNull: false,
     },
