@@ -1,6 +1,6 @@
 [
    {
-      "Platos fuertes": "Carne, pollo o pescado a la plancha",
+      "Nombre": "Carne, pollo o pescado a la plancha",
       "cantidad": 1,
       "unidad": "pieza (100g)",
       "Kcal": 247.5,
@@ -9,7 +9,7 @@
       "Composición en Equivalente": "3 AOAMAG"
    },
    {
-      "Platos fuertes": "Carne, pollo o pescado guisados",
+      "Nombre": "Carne, pollo o pescado guisados",
       "cantidad": 100,
       "unidad": "g",
       "Kcal": 282.5,
@@ -19,7 +19,7 @@
       "Composición en Equivalente": "0.5 Verdura"
    },
    {
-      "Platos fuertes": "Carne, pollo o pescado con salsas ligeras",
+      "Nombre": "Carne, pollo o pescado con salsas ligeras",
       "cantidad": 100,
       "unidad": "g",
       "Kcal": 270,
@@ -28,7 +28,7 @@
       "Composición en Equivalente": "3 AOAMAG"
    },
    {
-      "Platos fuertes": "Carne, pollo o pescado guisados con verduras",
+      "Nombre": "Carne, pollo o pescado guisados con verduras",
       "cantidad": 0.75,
       "unidad": "taza (100g)",
       "Kcal": 247.5,
@@ -38,7 +38,7 @@
       "Composición en Equivalente": "1.5 Verdura"
    },
    {
-      "Platos fuertes": "Carne, pollo o pescado guisados con salsa picantes o adobos",
+      "Nombre": "Carne, pollo o pescado guisados con salsa picantes o adobos",
       "cantidad": 100,
       "unidad": "g",
       "Kcal": 352.5,
@@ -48,7 +48,7 @@
       "Composición en Equivalente": "0.5 verdura"
    },
    {
-      "Platos fuertes": "Carnes empanizadas",
+      "Nombre": "Carnes empanizadas",
       "cantidad": 100,
       "unidad": "g",
       "Kcal": 350,
@@ -58,7 +58,7 @@
       "Composición en Equivalente": "0.5 Cereal s/grasa"
    },
    {
-      "Platos fuertes": "Carne, pollo, queso con cereales",
+      "Nombre": "Carne, pollo, queso con cereales",
       "cantidad": 150,
       "unidad": "g",
       "Kcal": 332.5,
@@ -68,7 +68,7 @@
       "Composición en Equivalente": "0.5 Verdura"
    },
    {
-      "Platos fuertes": "Tostas, tamales y pizzas",
+      "Nombre": "Tostas, tamales y pizzas",
       "cantidad": 1,
       "unidad": "pieza ",
       "Kcal": 365,
@@ -78,7 +78,7 @@
       "Composición en Equivalente": "0.5 Verdura"
    },
    {
-      "Platos fuertes": "Cereal con verdura",
+      "Nombre": "Cereal con verdura",
       "cantidad": 150,
       "unidad": "g",
       "Kcal": 240,
@@ -88,7 +88,7 @@
       "Composición en Equivalente": "verdura"
    },
    {
-      "Platos fuertes": "Cereal con leguminosas y queso",
+      "Nombre": "Cereal con leguminosas y queso",
       "cantidad": 2,
       "unidad": "piezas",
       "Kcal": 380,
@@ -98,7 +98,7 @@
       "Composición en Equivalente": "2 cereal s/grasa"
    },
    {
-      "Platos fuertes": "Pozoles",
+      "Nombre": "Pozoles",
       "cantidad": 1,
       "unidad": "tazón (300 ml)",
       "Kcal": 240,
@@ -108,7 +108,7 @@
       "Composición en Equivalente": "0.5 Verdura"
    },
    {
-      "Platos fuertes": "Potajes",
+      "Nombre": "Potajes",
       "cantidad": 1,
       "unidad": "tazón (300 ml)",
       "Kcal": 327.5,

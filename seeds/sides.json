@@ -1,6 +1,6 @@
 [
    {
-      "Guarniciones": "Frijoles cocidos",
+      "Nombre": "Frijoles cocidos",
       "cantidad": 0.75,
       "unidad": "taza (120)",
       "Kcal": 142.5,
@@ -10,7 +10,7 @@
       "Composición en Equivalente": "1 Leguminosa"
    },
    {
-      "Guarniciones": "Frijoles refritos",
+      "Nombre": "Frijoles refritos",
       "cantidad": 0.5,
       "unidad": "taza  (110)",
       "Kcal": 187.5,
@@ -20,7 +20,7 @@
       "Composición en Equivalente": "1 Leguminosa"
    },
    {
-      "Guarniciones": "Caldo gallego",
+      "Nombre": "Caldo gallego",
       "cantidad": 1,
       "unidad": "taza",
       "Kcal": 372.5,
@@ -30,7 +30,7 @@
       "Composición en Equivalente": "0.5 Verduiras"
    },
    {
-      "Guarniciones": "Verduras al vapor y con limón",
+      "Nombre": "Verduras al vapor y con limón",
       "cantidad": 0.5,
       "unidad": "taza (130)",
       "Kcal": 25,
@@ -40,7 +40,7 @@
       "Composición en Equivalente": "1 Verdura"
    },
    {
-      "Guarniciones": "Verduras guisadas",
+      "Nombre": "Verduras guisadas",
       "cantidad": 0.5,
       "unidad": "taza (120)",
       "Kcal": 47.5,
@@ -50,7 +50,7 @@
       "Composición en Equivalente": "1 Verdura"
    },
    {
-      "Guarniciones": "Verduras a la mantequilla",
+      "Nombre": "Verduras a la mantequilla",
       "cantidad": 0.5,
       "unidad": "taza",
       "Kcal": 70,
@@ -60,7 +60,7 @@
       "Composición en Equivalente": "1 Verdura"
    },
    {
-      "Guarniciones": "Verduras cocidas con crema, tocino o mayonesa",
+      "Nombre": "Verduras cocidas con crema, tocino o mayonesa",
       "cantidad": 0.5,
       "unidad": "taza (120)",
       "Kcal": 92.5,
@@ -70,7 +70,7 @@
       "Composición en Equivalente": "1 Verdura"
    },
    {
-      "Guarniciones": "Verduras gratinadas",
+      "Nombre": "Verduras gratinadas",
       "cantidad": 1,
       "unidad": "taza (240 ml)",
       "Kcal": 97.5,
@@ -80,7 +80,7 @@
       "Composición en Equivalente": "1.5 verdura"
    },
    {
-      "Guarniciones": "Verdura rellena de queso",
+      "Nombre": "Verdura rellena de queso",
       "cantidad": 0.5,
       "unidad": "pieza",
       "Kcal": 145,
@@ -90,7 +90,7 @@
       "Composición en Equivalente": "1 Verdura"
    },
    {
-      "Guarniciones": "Verduras capeadas y en salsa",
+      "Nombre": "Verduras capeadas y en salsa",
       "cantidad": 1,
       "unidad": "pieza",
       "Kcal": 170,
@@ -100,7 +100,7 @@
       "Composición en Equivalente": "1.5 verdura"
    },
    {
-      "Guarniciones": "Ensaladas con vinagreta",
+      "Nombre": "Ensaladas con vinagreta",
       "cantidad": 1,
       "unidad": "taza (140)",
       "Kcal": 70,
@@ -110,7 +110,7 @@
       "Composición en Equivalente": "1 Verdura"
    },
    {
-      "Guarniciones": "Ensaladas con proteina y aderezo",
+      "Nombre": "Ensaladas con proteina y aderezo",
       "cantidad": 1,
       "unidad": "taza",
       "Kcal": 217.5,
@@ -120,7 +120,7 @@
       "Composición en Equivalente": "1.5 verdura"
    },
    {
-      "Guarniciones": "Ensalada de verduras y frutas con aderezo",
+      "Nombre": "Ensalada de verduras y frutas con aderezo",
       "cantidad": 0.5,
       "unidad": "Taza (80)",
       "Kcal": 122.5,
@@ -130,7 +130,7 @@
       "Composición en Equivalente": "1 Verdura"
    },
    {
-      "Guarniciones": "Papas guisadas o en vinagreta",
+      "Nombre": "Papas guisadas o en vinagreta",
       "cantidad": 0.5,
       "unidad": "Taza (100)",
       "Kcal": 150,
@@ -140,7 +140,7 @@
       "Composición en Equivalente": "1.5 Cereal s/grasa"
    },
    {
-      "Guarniciones": "Ensalada rusa",
+      "Nombre": "Ensalada rusa",
       "cantidad": 0.5,
       "unidad": "taza",
       "Kcal": 185,
