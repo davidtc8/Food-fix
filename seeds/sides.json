@@ -1,152 +1,152 @@
 [
    {
-      "Guarniciones": "Frijoles cocidos",
+      "nombre": "Frijoles cocidos",
       "cantidad": 0.75,
       "unidad": "taza (120)",
       "Kcal": 142.5,
       "proteinas": 8,
       "lipidos": 3.5,
-      "hidratos de carbono": 20,
-      "Composición en Equivalente": "1 Leguminosa"
+      "hidratos_de_carbono": 20,
+      "composicion_en_equivalente": "1 Leguminosa"
    },
    {
-      "Guarniciones": "Frijoles refritos",
+      "nombre": "Frijoles refritos",
       "cantidad": 0.5,
       "unidad": "taza  (110)",
       "Kcal": 187.5,
       "proteinas": 8,
       "lipidos": 8.5,
-      "hidratos de carbono": 20,
-      "Composición en Equivalente": "1 Leguminosa"
+      "hidratos_de_carbono": 20,
+      "composicion_en_equivalente": "1 Leguminosa"
    },
    {
-      "Guarniciones": "Caldo gallego",
+      "nombre": "Caldo gallego",
       "cantidad": 1,
       "unidad": "taza",
       "Kcal": 372.5,
       "proteinas": 23.5,
       "lipidos": 16.5,
-      "hidratos de carbono": 20,
-      "Composición en Equivalente": "0.5 Verduiras"
+      "hidratos_de_carbono": 20,
+      "composicion_en_equivalente": "0.5 Verduiras"
    },
    {
-      "Guarniciones": "Verduras al vapor y con limón",
+      "nombre": "Verduras al vapor y con limón",
       "cantidad": 0.5,
       "unidad": "taza (130)",
       "Kcal": 25,
       "proteinas": 2,
       "lipidos": "-",
-      "hidratos de carbono": 20,
-      "Composición en Equivalente": "1 Verdura"
+      "hidratos_de_carbono": 20,
+      "composicion_en_equivalente": "1 Verdura"
    },
    {
-      "Guarniciones": "Verduras guisadas",
+      "nombre": "Verduras guisadas",
       "cantidad": 0.5,
       "unidad": "taza (120)",
       "Kcal": 47.5,
       "proteinas": 2,
       "lipidos": 2.5,
-      "hidratos de carbono": 4,
-      "Composición en Equivalente": "1 Verdura"
+      "hidratos_de_carbono": 4,
+      "composicion_en_equivalente": "1 Verdura"
    },
    {
-      "Guarniciones": "Verduras a la mantequilla",
+      "nombre": "Verduras a la mantequilla",
       "cantidad": 0.5,
       "unidad": "taza",
       "Kcal": 70,
       "proteinas": 2,
       "lipidos": 5,
-      "hidratos de carbono": 4,
-      "Composición en Equivalente": "1 Verdura"
+      "hidratos_de_carbono": 4,
+      "composicion_en_equivalente": "1 Verdura"
    },
    {
-      "Guarniciones": "Verduras cocidas con crema, tocino o mayonesa",
+      "nombre": "Verduras cocidas con crema, tocino o mayonesa",
       "cantidad": 0.5,
       "unidad": "taza (120)",
       "Kcal": 92.5,
       "proteinas": 2,
       "lipidos": 7.5,
-      "hidratos de carbono": 4,
-      "Composición en Equivalente": "1 Verdura"
+      "hidratos_de_carbono": 4,
+      "composicion_en_equivalente": "1 Verdura"
    },
    {
-      "Guarniciones": "Verduras gratinadas",
+      "nombre": "Verduras gratinadas",
       "cantidad": 1,
       "unidad": "taza (240 ml)",
       "Kcal": 97.5,
       "proteinas": 6.5,
       "lipidos": 5,
-      "hidratos de carbono": 6,
-      "Composición en Equivalente": "1.5 verdura"
+      "hidratos_de_carbono": 6,
+      "composicion_en_equivalente": "1.5 verdura"
    },
    {
-      "Guarniciones": "Verdura rellena de queso",
+      "nombre": "Verdura rellena de queso",
       "cantidad": 0.5,
       "unidad": "pieza",
       "Kcal": 145,
       "proteinas": 9,
       "lipidos": 10,
-      "hidratos de carbono": 4,
-      "Composición en Equivalente": "1 Verdura"
+      "hidratos_de_carbono": 4,
+      "composicion_en_equivalente": "1 Verdura"
    },
    {
-      "Guarniciones": "Verduras capeadas y en salsa",
+      "nombre": "Verduras capeadas y en salsa",
       "cantidad": 1,
       "unidad": "pieza",
       "Kcal": 170,
       "proteinas": 6,
       "lipidos": 12.5,
-      "hidratos de carbono": 7.75,
-      "Composición en Equivalente": "1.5 verdura"
+      "hidratos_de_carbono": 7.75,
+      "composicion_en_equivalente": "1.5 verdura"
    },
    {
-      "Guarniciones": "Ensaladas con vinagreta",
+      "nombre": "Ensaladas con vinagreta",
       "cantidad": 1,
       "unidad": "taza (140)",
       "Kcal": 70,
       "proteinas": 2,
       "lipidos": 5,
-      "hidratos de carbono": 4,
-      "Composición en Equivalente": "1 Verdura"
+      "hidratos_de_carbono": 4,
+      "composicion_en_equivalente": "1 Verdura"
    },
    {
-      "Guarniciones": "Ensaladas con proteina y aderezo",
+      "nombre": "Ensaladas con proteina y aderezo",
       "cantidad": 1,
       "unidad": "taza",
       "Kcal": 217.5,
       "proteinas": 13.5,
       "lipidos": 15,
-      "hidratos de carbono": 6,
-      "Composición en Equivalente": "1.5 verdura"
+      "hidratos_de_carbono": 6,
+      "composicion_en_equivalente": "1.5 verdura"
    },
    {
-      "Guarniciones": "Ensalada de verduras y frutas con aderezo",
+      "nombre": "Ensalada de verduras y frutas con aderezo",
       "cantidad": 0.5,
       "unidad": "Taza (80)",
       "Kcal": 122.5,
       "proteinas": 2,
       "lipidos": 7.5,
-      "hidratos de carbono": 11.5,
-      "Composición en Equivalente": "1 Verdura"
+      "hidratos_de_carbono": 11.5,
+      "composicion_en_equivalente": "1 Verdura"
    },
    {
-      "Guarniciones": "Papas guisadas o en vinagreta",
+      "nombre": "Papas guisadas o en vinagreta",
       "cantidad": 0.5,
       "unidad": "Taza (100)",
       "Kcal": 150,
       "proteinas": 3,
       "lipidos": 5,
-      "hidratos de carbono": 22.5,
-      "Composición en Equivalente": "1.5 Cereal s/grasa"
+      "hidratos_de_carbono": 22.5,
+      "composicion_en_equivalente": "1.5 Cereal s/grasa"
    },
    {
-      "Guarniciones": "Ensalada rusa",
+      "nombre": "Ensalada rusa",
       "cantidad": 0.5,
       "unidad": "taza",
       "Kcal": 185,
       "proteinas": 4.25,
       "lipidos": 11.25,
-      "hidratos de carbono": 16,
-      "Composición en Equivalente": "0.25 Verduras"
+      "hidratos_de_carbono": 16,
+      "composicion_en_equivalente": "0.25 Verduras"
    }
 ]

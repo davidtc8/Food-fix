@@ -1,120 +1,120 @@
 [
    {
-      "Platos fuertes": "Carne, pollo o pescado a la plancha",
+      "nombre": "Carne, pollo o pescado a la plancha",
       "cantidad": 1,
       "unidad": "pieza (100g)",
       "Kcal": 247.5,
       "proteinas": 21,
       "lipidos": 17.5,
-      "Composición en Equivalente": "3 AOAMAG"
+      "composicion_en_equivalente": "3 AOAMAG"
    },
    {
-      "Platos fuertes": "Carne, pollo o pescado guisados",
+      "nombre": "Carne, pollo o pescado guisados",
       "cantidad": 100,
       "unidad": "g",
       "Kcal": 282.5,
       "proteinas": 22,
       "lipidos": 20,
-      "hidratos de carbono": 2,
-      "Composición en Equivalente": "0.5 Verdura"
+      "hidratos_de_carbono": 2,
+      "composicion_en_equivalente": "0.5 Verdura"
    },
    {
-      "Platos fuertes": "Carne, pollo o pescado con salsas ligeras",
+      "nombre": "Carne, pollo o pescado con salsas ligeras",
       "cantidad": 100,
       "unidad": "g",
       "Kcal": 270,
       "proteinas": 21,
       "lipidos": 20,
-      "Composición en Equivalente": "3 AOAMAG"
+      "composicion_en_equivalente": "3 AOAMAG"
    },
    {
-      "Platos fuertes": "Carne, pollo o pescado guisados con verduras",
+      "nombre": "Carne, pollo o pescado guisados con verduras",
       "cantidad": 0.75,
       "unidad": "taza (100g)",
       "Kcal": 247.5,
       "proteinas": 20.5,
       "lipidos": 15,
-      "hidratos de carbono": 6,
-      "Composición en Equivalente": "1.5 Verdura"
+      "hidratos_de_carbono": 6,
+      "composicion_en_equivalente": "1.5 Verdura"
    },
    {
-      "Platos fuertes": "Carne, pollo o pescado guisados con salsa picantes o adobos",
+      "nombre": "Carne, pollo o pescado guisados con salsa picantes o adobos",
       "cantidad": 100,
       "unidad": "g",
       "Kcal": 352.5,
       "proteinas": 18.5,
       "lipidos": 25,
-      "hidratos de carbono": 12,
-      "Composición en Equivalente": "0.5 verdura"
+      "hidratos_de_carbono": 12,
+      "composicion_en_equivalente": "0.5 verdura"
    },
    {
-      "Platos fuertes": "Carnes empanizadas",
+      "nombre": "Carnes empanizadas",
       "cantidad": 100,
       "unidad": "g",
       "Kcal": 350,
       "proteinas": 22,
       "lipidos": 25,
-      "hidratos de carbono": 7.5,
-      "Composición en Equivalente": "0.5 Cereal s/grasa"
+      "hidratos_de_carbono": 7.5,
+      "composicion_en_equivalente": "0.5 Cereal s/grasa"
    },
    {
-      "Platos fuertes": "Carne, pollo, queso con cereales",
+      "nombre": "Carne, pollo, queso con cereales",
       "cantidad": 150,
       "unidad": "g",
       "Kcal": 332.5,
       "proteinas": 15.5,
       "lipidos": 15,
-      "hidratos de carbono": 32,
-      "Composición en Equivalente": "0.5 Verdura"
+      "hidratos_de_carbono": 32,
+      "composicion_en_equivalente": "0.5 Verdura"
    },
    {
-      "Platos fuertes": "Tostas, tamales y pizzas",
+      "nombre": "Tostas, tamales y pizzas",
       "cantidad": 1,
       "unidad": "pieza ",
       "Kcal": 365,
       "proteinas": 14,
       "lipidos": 12.5,
-      "hidratos de carbono": 47,
-      "Composición en Equivalente": "0.5 Verdura"
+      "hidratos_de_carbono": 47,
+      "composicion_en_equivalente": "0.5 Verdura"
    },
    {
-      "Platos fuertes": "Cereal con verdura",
+      "nombre": "Cereal con verdura",
       "cantidad": 150,
       "unidad": "g",
       "Kcal": 240,
       "proteinas": 13,
       "lipidos": 5,
-      "hidratos de carbono": 34,
-      "Composición en Equivalente": "verdura"
+      "hidratos_de_carbono": 34,
+      "composicion_en_equivalente": "verdura"
    },
    {
-      "Platos fuertes": "Cereal con leguminosas y queso",
+      "nombre": "Cereal con leguminosas y queso",
       "cantidad": 2,
       "unidad": "piezas",
       "Kcal": 380,
       "proteinas": 19,
       "lipidos": 11,
-      "hidratos de carbono": 50,
-      "Composición en Equivalente": "2 cereal s/grasa"
+      "hidratos_de_carbono": 50,
+      "composicion_en_equivalente": "2 cereal s/grasa"
    },
    {
-      "Platos fuertes": "Pozoles",
+      "nombre": "Pozoles",
       "cantidad": 1,
       "unidad": "tazón (300 ml)",
       "Kcal": 240,
       "proteinas": 13,
       "lipidos": 5,
-      "hidratos de carbono": 34,
-      "Composición en Equivalente": "0.5 Verdura"
+      "hidratos_de_carbono": 34,
+      "composicion_en_equivalente": "0.5 Verdura"
    },
    {
-      "Platos fuertes": "Potajes",
+      "nombre": "Potajes",
       "cantidad": 1,
       "unidad": "tazón (300 ml)",
       "Kcal": 327.5,
       "proteinas": 23.5,
       "lipidos": 11,
-      "hidratos de carbono": 32,
-      "Composición en Equivalente": "0.5 Verdura"
+      "hidratos_de_carbono": 32,
+      "composicion_en_equivalente": "0.5 Verdura"
    }
 ]

@@ -1,172 +1,172 @@
 [
    {
-      "Bebidas": "agua de fruta",
+      "nombre": "agua de fruta",
       "cantidad": 2,
       "unidad": "TAZA",
       "Kcal": 70,
       "proteinas": "-",
       "lipidos": "-",
-      "hidratos de carbono": 17.5,
-      "Composición en Equivalente": "0.5 FRUTA"
+      "hidratos_de_carbono": 17.5,
+      "composicion_en_equivalente": "0.5 FRUTA"
    },
    {
-      "Bebidas": "agua de sabor",
+      "nombre": "agua de sabor",
       "cantidad": 2,
       "unidad": "TAZA",
       "Kcal": 60,
       "proteinas": "-",
       "lipidos": "-",
-      "hidratos de carbono": 15,
-      "Composición en Equivalente": "1.5 AZUCAR"
+      "hidratos_de_carbono": 15,
+      "composicion_en_equivalente": "1.5 AZUCAR"
    },
    {
-      "Bebidas": "agua de verduras",
+      "nombre": "agua de verduras",
       "cantidad": 2,
       "unidad": "TAZA",
       "Kcal": 52.5,
       "proteinas": 1,
       "lipidos": "-",
-      "hidratos de carbono": 12,
-      "Composición en Equivalente": "0.5 VERDURA"
+      "hidratos_de_carbono": 12,
+      "composicion_en_equivalente": "0.5 VERDURA"
    },
    {
-      "Bebidas": "jugo de frutas natural",
+      "nombre": "jugo de frutas natural",
       "cantidad": 1,
       "unidad": "TAZA",
       "Kcal": 120,
       "proteinas": "-",
       "lipidos": "-",
-      "hidratos de carbono": 30,
-      "Composición en Equivalente": "2 FRUTAS"
+      "hidratos_de_carbono": 30,
+      "composicion_en_equivalente": "2 FRUTAS"
    },
    {
-      "Bebidas": "jugo de fruta con verdura",
+      "nombre": "jugo de fruta con verdura",
       "cantidad": 2,
       "unidad": "TAZA",
       "Kcal": 85,
       "proteinas": 2,
       "lipidos": "-",
-      "hidratos de carbono": 19,
-      "Composición en Equivalente": "1 FRUTA"
+      "hidratos_de_carbono": 19,
+      "composicion_en_equivalente": "1 FRUTA"
    },
    {
-      "Bebidas": "refrescos y jugos industrializados",
+      "nombre": "refrescos y jugos industrializados",
       "cantidad": 1,
       "unidad": "TAZA",
       "Kcal": 160,
       "proteinas": "-",
       "lipidos": "-",
-      "hidratos de carbono": 40,
-      "Composición en Equivalente": "5 AZUCAR"
+      "hidratos_de_carbono": 40,
+      "composicion_en_equivalente": "5 AZUCAR"
    },
    {
-      "Bebidas": "leche especial (soya/ omega)",
+      "nombre": "leche especial (soya/ omega)",
       "cantidad": 1,
       "unidad": "TAZA",
       "Kcal": 150,
       "proteinas": 9,
       "lipidos": 8,
-      "hidratos de carbono": 12,
-      "Composición en Equivalente": "1 LECHE ENTERA"
+      "hidratos_de_carbono": 12,
+      "composicion_en_equivalente": "1 LECHE ENTERA"
    },
    {
-      "Bebidas": "café o te con leche",
+      "nombre": "café o te con leche",
       "cantidad": 1,
       "unidad": "TAZA",
       "Kcal": 77.5,
       "proteinas": 2.25,
       "lipidos": 2,
-      "hidratos de carbono": 13,
-      "Composición en Equivalente": "0.25 LECHE ENTERA"
+      "hidratos_de_carbono": 13,
+      "composicion_en_equivalente": "0.25 LECHE ENTERA"
    },
    {
-      "Bebidas": "licuados de frutas",
+      "nombre": "licuados de frutas",
       "cantidad": 1,
       "unidad": "TAZA",
       "Kcal": 200,
       "proteinas": 9,
       "lipidos": 8,
-      "hidratos de carbono": 24.5,
-      "Composición en Equivalente": "0.5 FRUTA"
+      "hidratos_de_carbono": 24.5,
+      "composicion_en_equivalente": "0.5 FRUTA"
    },
    {
-      "Bebidas": "licuados de frutas con cereal",
+      "nombre": "licuados de frutas con cereal",
       "cantidad": 1.5,
       "unidad": "TAZA",
       "Kcal": 280,
       "proteinas": 11,
       "lipidos": 8,
-      "hidratos de carbono": 42,
-      "Composición en Equivalente": "1 FRUTA"
+      "hidratos_de_carbono": 42,
+      "composicion_en_equivalente": "1 FRUTA"
    },
    {
-      "Bebidas": "atole",
+      "nombre": "atole",
       "cantidad": 1,
       "unidad": "TAZA",
       "Kcal": 110,
       "proteinas": 2,
       "lipidos": "-",
-      "hidratos de carbono": 25,
-      "Composición en Equivalente": "1 CEREAL S/GRASA"
+      "hidratos_de_carbono": 25,
+      "composicion_en_equivalente": "1 CEREAL S/GRASA"
    },
    {
-      "Bebidas": "atole con leche",
+      "nombre": "atole con leche",
       "cantidad": 1,
       "unidad": "TAZA",
       "Kcal": 185,
       "proteinas": 6.5,
       "lipidos": 4,
-      "hidratos de carbono": 31,
-      "Composición en Equivalente": "1 CEREAL S/GRASA"
+      "hidratos_de_carbono": 31,
+      "composicion_en_equivalente": "1 CEREAL S/GRASA"
    },
    {
-      "Bebidas": "bebidas sin azúcar",
+      "nombre": "bebidas sin azúcar",
       "cantidad": 1,
       "unidad": "TAZA",
       "Kcal": "-",
       "proteinas": "-",
       "lipidos": "-",
-      "hidratos de carbono": "-",
-      "Composición en Equivalente": "1 ALIMENTO LIBRE"
+      "hidratos_de_carbono": "-",
+      "composicion_en_equivalente": "1 ALIMENTO LIBRE"
    },
    {
-      "Bebidas": "alcohol con refresco",
+      "nombre": "alcohol con refresco",
       "cantidad": 1,
       "Kcal": 190,
       "proteinas": "-",
       "lipidos": "-",
-      "hidratos de carbono": 30,
+      "hidratos_de_carbono": 30,
       "etanol": 10,
-      "Composición en Equivalente": "3 AZUCAR"
+      "composicion_en_equivalente": "3 AZUCAR"
    },
    {
-      "Bebidas": "alcohol con verdura",
+      "nombre": "alcohol con verdura",
       "cantidad": 1,
       "Kcal": 95,
       "proteinas": 2,
       "lipidos": "-",
-      "hidratos de carbono": 4,
+      "hidratos_de_carbono": 4,
       "etanol": 10,
-      "Composición en Equivalente": "1 VERDURA"
+      "composicion_en_equivalente": "1 VERDURA"
    },
    {
-      "Bebidas": "alcohol con leche",
+      "nombre": "alcohol con leche",
       "cantidad": 1,
       "Kcal": 185,
       "proteinas": 4.5,
       "lipidos": 4,
-      "hidratos de carbono": 16,
+      "hidratos_de_carbono": 16,
       "etanol": 10,
-      "Composición en Equivalente": "0.5 LECHE ENTERA"
+      "composicion_en_equivalente": "0.5 LECHE ENTERA"
    },
    {
-      "Bebidas": "alcohol con fruta",
+      "nombre": "alcohol con fruta",
       "cantidad": 1,
       "Kcal": 165,
       "proteinas": "-",
       "lipidos": "-",
-      "hidratos de carbono": 23.75,
+      "hidratos_de_carbono": 23.75,
       "etanol": 10,
-      "Composición en Equivalente": "0.25 FRUTA"
+      "composicion_en_equivalente": "0.25 FRUTA"
    }
 ]
