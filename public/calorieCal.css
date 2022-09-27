@@ -5,26 +5,63 @@
 
 html {
   font-family: sans-serif;
- 
 }
 
 body {
+  background-image: url("./images/wp3104899-fresh-veggies-wallpapers.jpg");
+  background-size: cover;
+}
+
+/*############ HEADER SECTION ############*/
+.header {
+  padding-bottom: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 30px;
+}
+
+.header h1 .seo {
+  color: #d9dcd6;
+}
+
+.header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+.header nav ul {
+  list-style-type: none;
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+section {
   font-family: "Asap", sans-serif;
   line-height: 1.4;
-  background-image: url('./images/wp3104899-fresh-veggies-wallpapers.jpg');
-  background-size: cover;
   width: 500px;
-  margin: auto; 
-  margin-top: 15rem; 
+  margin: auto;
+  margin-top: 3rem;
 }
 
 form {
   background: rgba(191, 127, 63, 0.914);
-    padding: 2.5rem 2.5rem;
-    border-radius: 2rem;
-    width: 500px;
-    margin: auto;
-    margin-bottom: 3rem;
+  padding: 2.5rem 2.5rem;
+  border-radius: 2rem;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 3rem;
 }
 
 .form-title {
@@ -48,7 +85,7 @@ input[type="radio"] + label {
   display: inline-block;
   text-transform: initial;
   font-weight: normal;
-  padding: .3rem;
+  padding: 0.3rem;
 }
 
 input[type="radio"] {
@@ -56,8 +93,8 @@ input[type="radio"] {
 }
 
 input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus, 
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   background-color: white;
   -webkit-box-shadow: 0 0 0 30px white inset;
@@ -70,7 +107,7 @@ select {
   width: 100%;
   height: 2.5rem;
   border: 1px solid #ccc;
-  padding: .5rem;
+  padding: 0.5rem;
   border-radius: 5px;
   cursor: pointer;
   outline: none;
@@ -79,15 +116,15 @@ select {
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
-  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 button {
-  border: 1px solid rgba(0,0,0,.35);
+  border: 1px solid rgba(0, 0, 0, 0.35);
   border-bottom-width: 3px;
   background-color: transparent;
   font-weight: bold;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 5px;
   outline: none;
   font-size: 1rem;
@@ -110,17 +147,31 @@ select:focus {
 
 input:focus + span::before,
 select:focus + span::before {
-  content: '▶';
+  content: "▶";
   position: absolute;
-  left: -.25rem;
+  left: -0.25rem;
   transform: translateY(-3rem);
   color: #e41a23;
 }
 
 .radio-group:focus-within::after {
-  content: '▶';
+  content: "▶";
   position: absolute;
-  left: -.25rem;
-  transform: translateY(.25rem);
-  color: #e41a23;  
+  left: -0.25rem;
+  transform: translateY(0.25rem);
+  color: #e41a23;
+}
+
+/*############ FOOTER SECTION ############*/
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  background-color: #06283D;
+  color: white;
+}
+
+.footer h2 {
+  font-size: 20px;
 }
