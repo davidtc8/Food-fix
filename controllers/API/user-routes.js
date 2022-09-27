@@ -1,29 +1,8 @@
 const router = require("express").Router();
 const { User } = require("../../models/user");
 
-// app.post("/api/courses", (req, res) => {
-//     const schema = {
-//         name: Joi.string().min(3).required()
-//     };
-//     const result = Joi.validate(req.body, schema)
-//     if (result.error) {
-//          res.status(404).send(result.error.details[0].message);
-//          return;
-//     }
-//     const course = {
-// id: courses.length + 1,
-// name: req.body.name
-//     };
-//     courses.push(course);
-//     res.send(course);
-
-// } )
-
-// CREATE new user
+// Route for creating a new user
 router.post("/", async (req, res) => {
-  // const schema = {
-
-  // }
   try {
     const dbUserData = await User.create({
       name: req.body.name,

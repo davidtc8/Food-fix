@@ -1,8 +1,7 @@
 const router = require("express").Router();
-const homeRoutes = require("./mealsRoutes");
-const forms = require("./forms");
 
-router.use("/", homeRoutes);
-router.use("/", forms);
+const userRoutes = require("./user-routes");
+
+router.use("/user", userRoutes);
 
 module.exports = router;
