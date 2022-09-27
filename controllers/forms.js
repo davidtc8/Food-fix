@@ -1,23 +1,18 @@
 const router = require("express").Router();
 
-router.get("/", async (req, res) => {
-  // TODO: Render template with Sequelize data
-  res.render("homepage");
-});
-
-router.get("/home", function (req, res) {
+router.get("/home", async (req, res) => {
   res.render("homepage", { layout: "main" });
 });
 
-router.get("/backend", function (req, res) {
-  res.render("homepage", { layout: "backEnd" });
+router.get("/backend", async (req, res) => {
+  res.render("homepage", { layout: "backend" });
 });
 
-router.get("/signup", function (req, res) {
+router.get("/signup", async (req, res) => {
   res.render("signUpForm", { layout: "backEnd" });
 });
 
-router.get("/calculator", function (req, res) {
+router.get("/calculator", async (req, res) => {
   res.render("calorieCalculator", { layout: "counter" });
 });
 
