@@ -1,8 +1,6 @@
-.hero {
-    background-image: url('./images/food_fix_banner.jpg');
+body {
+    background-image: url('./images/wp3104899-fresh-veggies-wallpapers.jpg');
     background-size: cover;
-    background-position: center;
-    padding: 450px;
 }
 
 /*############ HEADER SECTION ############*/
@@ -40,49 +38,61 @@
     margin-left: 25px;
 }
 
-div {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 25px;
+section {
+    font-family: "Asap", sans-serif;
+    line-height: 1.4;
+    width: 500px;
+    margin: auto; 
+    margin-top: 3rem; 
 }
 
-.login-button {
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  background-color: #97D2EC;
-  border: none;
-  font-size: 28px;
-  color: #FFFFFF;
-  padding: 20px;
-  width: 200px;
-  text-align: center;
-  transition-duration: 0.4s;
-  text-decoration: none;
-  overflow: hidden;
-  cursor: pointer;
+form {
+    background: rgba(191, 127, 63, 0.914);
+    padding: 2.5rem 2.5rem;
+    border-radius: 2rem;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 3rem;
 }
 
-.login-button:after {
-  content: "";
-  background: #f1f1f1;
-  display: block;
-  position: absolute;
-  padding-top: 300%;
-  padding-left: 350%;
-  margin-left: -20px !important;
-  margin-top: -120%;
-  opacity: 0;
-  transition: all 0.8s
+
+.submit-button {
+
+    width: 100%;
+    padding: 0.75rem;
+    background: rgb(201, 217, 153);
+    color: black;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 3rem; 
+
 }
 
-.login-button:active:after {
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-  transition: 0s
+.input-headings {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
 }
 
+.form-inputs {
+
+    display: block;
+    width: 90%;
+    height: 2rem;
+    padding: 0.25rem 0.75rem;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+#description {
+    font-weight: bold; 
+    font-style:unset; 
+    font-size: 18px; 
+}
+
+h1 {
+    justify-content: center; 
+}
 
 /*############ FOOTER SECTION ############*/
 .footer {
