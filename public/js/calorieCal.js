@@ -14,19 +14,48 @@ $('button[type="reset"]').click(function () {
   });
 });
 
-function calcCalsFromMacros() {
-  let carbs = parseInt($("#carbs").val()) * 4;
-  let protein = parseInt($("#protein").val()) * 4;
-  let fat = parseInt($("#fat").val()) * 9;
 
-  let result = carbs + protein + fat;
 
-  $("#m-results").fadeOut("fast", function () {
-    $(this)
-      .html("<h3>Estimated Daily Calories: " + result + "</h3>")
-      .fadeIn("fast");
-  });
+
+function calcDailyMacros(result) {
+  let carbs = (result * 0.4) / 4;
+  let protein = (result * 0.3) / 4;
+  let fat = (result * 0.3) / 9;
+
+  // $("#carbs").val(Math.round(carbs));
+  // $("#protein").val(Math.round(protein));
+  // $("#fat").val(Math.round(fat));
+
+
+  $("#carbsResult").html(Math.round(carbs));
+  $("#proteinResult").html(Math.round(protein));
+  $("#fatResult").html(Math.round(fat));
+
+
+  calcCalsFromMacros(carbs, protein, fat);
+
 }
+
+
+function calcCalsFromMacros(carbs, protein, fat) {
+
+  console.log('carbs, protein, fat', carbs, protein, fat)
+
+  let calories = (carbs * 4) + (protein * 4) + (fat * 9);
+
+  $("#caloriesResult").html(Math.round(calories));
+
+  // $("#m-results").fadeOut("fast", function () {
+  //   $(this)
+  //     .html("<h3>Estimated Daily Calories: " + result + "</h3>")
+  //     .fadeIn("fast");
+  // });
+
+
+
+}
+
+
 
 function calcDailyCals() {
   let age = parseInt($("#age").val());
@@ -55,14 +84,5 @@ function calcDailyCals() {
       .html("<h3>Estimated Daily Calories: " + result + "</h3>")
       .fadeIn("fast");
   });
-
-  function calcDailyMacros(result) {
-    let carbs = (result * 0.4) / 4;
-    let protein = (result * 0.3) / 4;
-    let fat = (result * 0.3) / 9;
-
-    $("#carbs").val(Math.round(carbs));
-    $("#protein").val(Math.round(protein));
-    $("#fat").val(Math.round(fat));
-  }
 }
+
