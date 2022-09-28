@@ -24,17 +24,55 @@ body {
 
 form {
     background: rgba(191, 127, 63, 0.8);
-    width: 600px;
     border-radius: 1rem;
+}
+
+#survey-form {
+    width: 600px;
+}
+
+
+#calorie-calculator {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2.4rem;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.section01, .section02 {
+    justify-content: center;
+    width: 500px;
+    min-height: 500px;
 }
 
 
 .form-header {
+    width: 100%;
     background-image: linear-gradient(to right, #301800,#532E09, #784B1F,#532E09,#301800);
     padding: 1.8rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     color: white;
+}
+
+.radio-group {
+    margin: 2rem 0rem;
+    padding: 0.8rem 0rem;
+    text-align: center;
+    border-bottom: #784B1F solid 1px;
+    border-top: #784B1F solid 1px;
+}
+
+.radio-title {
+    font-size: 1.5rem;
+    font-weight: bolder;    
 }
 
 .form-container {
@@ -50,21 +88,18 @@ label {
 }
 
 .submit-button {
-    width: 100%;
+    width: 250px;
     padding: 0.75rem;
     background: rgb(199, 201, 96);
     color: black;
     border-radius: 6px;
     cursor: pointer;
-    margin-top: 3rem;
     font-size: 1.2rem;
     font-weight: bold;
+    margin: 0rem 1rem 2.5rem 1rem;
+    border: #313a09 solid 4px;
 }
 
-.input-headings {
-    margin: 0 auto 1.25rem auto;
-    padding: 0.25rem;
-}
 
 .form-inputs {
 
@@ -82,10 +117,15 @@ textarea {
     min-height: 8rem;
 }
 
-#description {
-    /* font-weight: bold;  */
-    font-style:unset; 
-    font-size: 18px; 
+p {
+    font-size: 22px;
+    font-weight: bolder;
+    margin: 1.4rem 0rem;
+}
+
+.more-info {
+    border-top: #532E09 solid 1px;
+    padding-top: 1rem;
 }
 
 h1 {
@@ -93,3 +133,10 @@ h1 {
     /* margin-bottom: 1.6rem; */
 }
 
+.form-footer {
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+}
