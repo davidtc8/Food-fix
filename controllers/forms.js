@@ -13,14 +13,9 @@ router.get("/signup", function (req, res) {
   res.render("signUpForm", { layout: "backEnd" });
 });
 
-router.get("/calculator", function (req, res) {
-  res.render("calorieCalculator", { layout: "backend" });
-});
-
 router.get("/calculatorII", function (req, res) {
   res.render("calculator", { layout: "backend" });
 });
-
 
 module.exports = router;
 
@@ -31,4 +26,3 @@ module.exports = router;
 //       const dishes = dishData.map((dish) => dish.get({ plain: true }));
 //       res.render('all', { dishes });
 //     });
-
