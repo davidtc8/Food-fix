@@ -18,7 +18,7 @@ router.get("/signup", function (req, res) {
 });
 
 router.get("/calculator", function (req, res) {
-  res.render("calorieCalculator", { layout: "counter" });
+  res.render("calorieCalculator", { layout: "backEnd" });
 });
 
 module.exports = router;
