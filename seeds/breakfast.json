@@ -7,7 +7,9 @@
       "proteins": 11,
       "lipids": 8,
       "carbohydrates": 37,
-      "equivalent_composition": "1 Cereal sin grasa"
+      "equivalent_composition": "1 Cereal sin grasa",
+      "filename": "01-cereales-con-leche-y-azucar.jpg"
+      
    },
    {
       "name": "Frutas con yogur",
@@ -17,7 +19,9 @@
       "proteins": 4.5,
       "lipids": 4,
       "carbohydrates": 21,
-      "equivalent_composition": "1 Fruta"
+      "equivalent_composition": "1 Fruta",
+      "filename": "02-frutas-con-yogur.jpg"
+      
    },
    {
       "name": "Hot cakes, wafles, pan francés",
@@ -27,7 +31,9 @@
       "proteins": 4,
       "lipids": 10,
       "carbohydrates": 40,
-      "equivalent_composition": "2 Cereal sin grasa"
+      "equivalent_composition": "2 Cereal sin grasa",
+      "filename": "03-hotcakes-wafles-pan-frances.jpg"
+      
    },
    {
       "name": "Cereal con leche y fruta",
@@ -37,7 +43,9 @@
       "proteins": 11,
       "lipids": 8,
       "carbohydrates": 39.5,
-      "equivalent_composition": "0.5 Fruta"
+      "equivalent_composition": "0.5 Fruta",
+      "filename": "04-cereal-con-leche-y-fruta.jpg"
+      
    },
    {
       "name": "Tamal de dulce",
@@ -47,7 +55,9 @@
       "proteins": 4,
       "lipids": 10,
       "carbohydrates": 40,
-      "equivalent_composition": "2 Cereales con grasa"
+      "equivalent_composition": "2 Cereales con grasa",
+      "filename": "05-tamal-dulce.jpg"
+      
    },
    {
       "name": "Huevo con verdura",
@@ -57,7 +67,9 @@
       "proteins": 8,
       "lipids": 7.5,
       "carbohydrates": 2,
-      "equivalent_composition": "0.5 Verdura"
+      "equivalent_composition": "0.5 Verdura",
+      "filename": "06-huevo-con-embutidos.jpg"
+      
    },
    {
       "name": "Huevo con embutidos",
@@ -67,7 +79,9 @@
       "proteins": 10.5,
       "lipids": 12.5,
       "carbohydrates": "0",
-      "equivalent_composition": "1.5 AOAMAG"
+      "equivalent_composition": "1.5 AOAMAG",
+      "filename": "07-huevo-con-embutidos.jpg"
+      
    },
    {
       "name": "Huevo con tortilla o papa y salsa",
@@ -77,7 +91,9 @@
       "proteins": 9.5,
       "lipids": 12.5,
       "carbohydrates": 16,
-      "equivalent_composition": "0.25 Verdura"
+      "equivalent_composition": "0.25 Verdura",
+      "filename": "08-huevo-con-tortilla-o-papa-salsa.jpg"
+      
    },
    {
       "name": "Huevo con leguminosa",
@@ -87,7 +103,9 @@
       "proteins": 11,
       "lipids": 8,
       "carbohydrates": 10,
-      "equivalent_composition": "0.5 Leguminosa"
+      "equivalent_composition": "0.5 Leguminosa",
+      "filename": "09-huevo-con-leguminosa.jpg"
+      
    },
    {
       "name": "Huevo con queso",
@@ -97,7 +115,9 @@
       "proteins": 10.5,
       "lipids": 9,
       "carbohydrates": "0",
-      "equivalent_composition": "0.5 AOABAG"
+      "equivalent_composition": "0.5 AOABAG",
+      "filename": "10-huevo-con-queso.jpg"
+      
    },
    {
       "name": "Tortilla con salsa, crema y queso",
@@ -107,6 +127,11 @@
       "proteins": 9.5,
       "lipids": 10,
       "carbohydrates": 34,
-      "equivalent_composition": "1 Verdura"
+      "equivalent_composition": "1 Verdura",
+      "filename": "11-tortilla-con-salsa-crema-y-queso.jpg"
+      
+      
    }
+
+   
 ]

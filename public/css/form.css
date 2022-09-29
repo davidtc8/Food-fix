@@ -3,9 +3,10 @@
     margin: 0px
 }
 
-body {
+.image {
     background-image: url('/images/wp3104899-fresh-veggies-wallpapers.jpg');
-    background-size: cover;
+    width: 100%;
+    padding: 150px;
 }
 
 main {
@@ -256,8 +257,6 @@ td div {
     text-align: center;
     background-color: #06283D;
     color: white;
-
-    position: fixed;
     bottom: 0px;
 }
 

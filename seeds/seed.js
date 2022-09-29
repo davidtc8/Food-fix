@@ -7,14 +7,11 @@ const Meal = require('../models/meal');
 const Sides = require('../models/sides');
 const Soups = require('../models/soups');
 
-
-const beveragesSeedData = require('./beverages.json');
-const breakfastSeedData = require('./breakfast.json');
-const dessertsSeedData = require('./desserts.json');
-const mealSeedData = require('./meal.json');
-const sidesSeedData = require('./sides.json');
-const soupsSeedData = require('./soups.json');
-
+const breakfastSeedData = require("./breakfast.json");
+const dessertsSeedData = require("./desserts.json");
+const mealSeedData = require("./meal.json");
+const sidesSeedData = require("./sides.json");
+const soupsSeedData = require("./soups.json");
 
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });

@@ -7,17 +7,12 @@ const Desserts = require('../models/desserts');
 
 
 
-router.get("/", async (req, res) => {
-  // TODO: Render template with Sequelize data
-  res.render("homepage");
-});
-
-router.get("/home", function (req, res) {
+router.get("/", function (req, res) {
   res.render("homepage", { layout: "main" });
 });
 
 router.get("/signup", function (req, res) {
-  res.render("signUpForm", { layout: "backEnd" });
+  res.render("signUpForm", { layout: "backgrounds" });
 });
 
 router.get("/login", function (req, res) {
@@ -26,7 +21,7 @@ router.get("/login", function (req, res) {
 
 
 router.get("/calculator", function (req, res) {
-  res.render("calculator", { layout: "backend" });
+  res.render("calculator", { layout: "backgrounds" });
 });
 
 

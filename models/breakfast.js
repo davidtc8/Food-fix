@@ -1,6 +1,5 @@
-const { Model, DataTypes } = require('sequelize');
-const sequelize = require('../config/connection');
-
+const { Model, DataTypes } = require("sequelize");
+const sequelize = require("../config/connection");
 
 class Breakfast extends Model { }
 
@@ -43,13 +42,17 @@ Breakfast.init(
     equivalent_composition: {
       type: DataTypes.STRING,
     },
+    filename: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
   },
   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'breakfast',
+    modelName: "breakfast",
   }
 );
 
