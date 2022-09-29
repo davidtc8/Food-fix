@@ -1,7 +1,7 @@
-const router = require("express").Router();
+// const router = require("express").Router();
 
-router.get("/home", async (req, res) => {
-  res.render("homepage", { layout: "main" });
-});
+// router.get("/", async (req, res) => {
+//   res.render("homepage", { layout: "main" });
+// });
 
-module.exports = router;
+// module.exports = router;
