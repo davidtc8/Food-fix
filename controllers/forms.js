@@ -14,7 +14,7 @@ router.get("/signup", function (req, res) {
 });
 
 router.get("/calculator", function (req, res) {
-  res.render("calculator", { layout: "backend" });
+  res.render("calculator", { layout: "backEnd" });
 });
 
 module.exports = router;
