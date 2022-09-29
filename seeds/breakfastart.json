@@ -1,0 +1,46 @@
+[
+    {
+    "filename": "01-cereales-con-leche-y-azucar.jpg",
+    "breakfast_id": 1
+ },
+ {
+    "filename": "02-frutas-con-yogur.jpg",
+    "breakfast_id": 2
+ },
+ {
+    "filename": "03-hotcakes-wafles-pan-frances.jpg",
+    "breakfast_id": 3
+ },
+ {
+    "filename": "04-cereal-con-leche-y-fruta.jpg",
+    "breakfast_id": 4
+ },
+ {
+    "filename": "05-tamal-dulce.jpg",
+    "breakfast_id": 5
+ },
+ {
+    "filename": "06-huevo-con-embutidos.jpg",
+    "breakfast_id": 6
+ },
+ {
+    "filename": "07-huevo-con-embutidos.jpg",
+    "breakfast_id": 7
+ },
+ {
+    "filename": "08-huevo-con-tortilla-o-papa-salsa.jpg",
+    "breakfast_id": 8
+ },
+ {
+    "filename": "09-huevo-con-leguminosa.jpg",
+    "breakfast_id": 9
+ },
+ {
+    "filename": "10-huevo-con-queso.jpg",
+    "breakfast_id": 10
+ },
+ {
+    "filename": "11-tortilla-con-salsa-crema-y-queso.jpg",
+    "breakfast_id": 11
+ }
+]
