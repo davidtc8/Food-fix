@@ -10,11 +10,11 @@ router.get("/", function (req, res) {
 });
 
 router.get("/signup", function (req, res) {
-  res.render("signUpForm", { layout: "backEnd" });
+  res.render("signUpForm", { layout: "backgrounds" });
 });
 
 router.get("/calculator", function (req, res) {
-  res.render("calculator", { layout: "backEnd" });
+  res.render("calculator", { layout: "backgrounds" });
 });
 
 module.exports = router;
