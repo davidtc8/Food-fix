@@ -11,7 +11,6 @@ const dessertsSeedData = require("./desserts.json");
 const mealSeedData = require("./meal.json");
 const sidesSeedData = require("./sides.json");
 const soupsSeedData = require("./soups.json");
-const breakfastArtData = require("./breakfastart.json");
 
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });

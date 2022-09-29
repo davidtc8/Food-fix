@@ -3,7 +3,7 @@ const breakfast = require("../models/Breakfast");
 
 // route to get all breakfasts
 //
-router.get("/menus", async (req, res) => {
+router.get("/", async (req, res) => {
   const breakfastData = await breakfast.findAll().catch((err) => {
     res.json(err);
   });
