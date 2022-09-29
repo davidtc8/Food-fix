@@ -1,9 +1,9 @@
 const { UUIDV4, Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Sides extends Model { }
+class Health extends Model { }
 
-Sides.init(
+Health.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -11,37 +11,33 @@ Sides.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    name: {
+    age: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
+    gender: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    quantity: {
+    weight: {
       type: DataTypes.DECIMAL,
       allowNull: false,
     },
-    Unit: {
+    activity: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    cal: {
-      type: DataTypes.DECIMAL,
+    goal: {
+      type: DataTypes.INTEGER,
       allowNull: false,
     },
-    proteins: {
-      type: DataTypes.DECIMAL,
-      allowNull: false,
-    },
-    lipids: {
-      type: DataTypes.DECIMAL,
-      allowNull: false,
-    },
-    carbohydrates: {
-      type: DataTypes.DECIMAL,
-      allowNull: false,
-    },
-    equivalent_composition: {
-      type: DataTypes.STRING,
-    },
+    user_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'user',
+        key: 'id',
+      }
+    }
 
   },
   {
@@ -53,4 +49,4 @@ Sides.init(
   }
 );
 
-module.exports = Sides;
+module.exports = Health;

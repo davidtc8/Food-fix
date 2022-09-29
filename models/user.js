@@ -28,45 +28,6 @@ User.init(
                 isEmail: true,
             },
         },
-
-        age: {
-
-            type: DataTypes.INTEGER,
-            allowNull: false,
-        },
-
-        gender: {
-            type: DataTypes.STRING,
-            allowNull: false,
-
-        },
-
-        height: {
-            type: DataTypes.DECIMAL,
-            allowNull: false,
-
-        },
-
-        weight: {
-
-            type: DataTypes.DECIMAL,
-            allowNull: false,
-
-        },
-
-        activity: {
-            type: DataTypes.STRING,
-            allowNull: false,
-
-        },
-
-        goal: {
-
-            type: DataTypes.DECIMAL,
-            allowNull: false,
-        },
-
-
         password: {
             type: DataTypes.STRING,
             allowNull: false,

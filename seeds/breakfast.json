@@ -2,7 +2,7 @@
    {
       "name": "Cereal con leche y azúcar",
       "quantity": 1,
-      "Unit": "taza    (240ml)",
+      "Unit": "taza (240ml)",
       "cal": 260,
       "proteins": 11,
       "lipids": 8,
@@ -12,7 +12,7 @@
    {
       "name": "Frutas con yogur",
       "quantity": 1,
-      "Unit": "taza    (160ml)",
+      "Unit": "taza (160ml)",
       "cal": 135,
       "proteins": 4.5,
       "lipids": 4,
@@ -22,7 +22,7 @@
    {
       "name": "Hot cakes, wafles, pan francés",
       "quantity": 2,
-      "Unit": "pieza     (100g)",
+      "Unit": "pieza (100g)",
       "cal": 270,
       "proteins": 4,
       "lipids": 10,
@@ -32,7 +32,7 @@
    {
       "name": "Cereal con leche y fruta",
       "quantity": 1,
-      "Unit": "taza       (240ml)",
+      "Unit": "taza (240ml)",
       "cal": 270,
       "proteins": 11,
       "lipids": 8,
@@ -52,7 +52,7 @@
    {
       "name": "Huevo con verdura",
       "quantity": 1,
-      "Unit": "pieza          (85g)",
+      "Unit": "pieza (85g)",
       "cal": 110,
       "proteins": 8,
       "lipids": 7.5,
@@ -62,7 +62,7 @@
    {
       "name": "Huevo con embutidos",
       "quantity": 1,
-      "Unit": "pieza          (85g)",
+      "Unit": "pieza (85g)",
       "cal": 157.5,
       "proteins": 10.5,
       "lipids": 12.5,
@@ -72,7 +72,7 @@
    {
       "name": "Huevo con tortilla o papa y salsa",
       "quantity": 1,
-      "Unit": "pieza          (85g)",
+      "Unit": "pieza (85g)",
       "cal": 218.75,
       "proteins": 9.5,
       "lipids": 12.5,
@@ -82,7 +82,7 @@
    {
       "name": "Huevo con leguminosa",
       "quantity": 1,
-      "Unit": "pieza          (85g)",
+      "Unit": "pieza (85g)",
       "cal": 157.5,
       "proteins": 11,
       "lipids": 8,
@@ -92,7 +92,7 @@
    {
       "name": "Huevo con queso",
       "quantity": 1,
-      "Unit": "pieza          (85g)",
+      "Unit": "pieza (85g)",
       "cal": 125,
       "proteins": 10.5,
       "lipids": 9,
@@ -102,7 +102,7 @@
    {
       "name": "Tortilla con salsa, crema y queso",
       "quantity": 1,
-      "Unit": "taza    (160ml)",
+      "Unit": "taza (160ml)",
       "cal": 270,
       "proteins": 9.5,
       "lipids": 10,

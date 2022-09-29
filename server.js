@@ -1,15 +1,25 @@
-//required modules and packages
-const path = require("path");
-const express = require("express");
-const exphbs = require("express-handlebars");
-const routes = require("./controllers");
-const helpers = require("./utils/helpers");
-const sequelize = require("./config/connection");
-const dotenv = require("dotenv").config();
-//creates an express instance called app, to be used for several express operations.
+const path = require('path');
+const express = require('express');
+const session = require('express-session');
+const exphbs = require('express-handlebars');
+const SequelizeStore = require('connect-session-sequelize')(session.Store);
+
+const routes = require('./controllers');
+const sequelize = require('./config/connection');
+const helpers = require('./utils/helpers');
+
 const app = express();
 const PORT = process.env.PORT || 3001;
-//Setting up Handlebars.js engine with custom helpers
+
+
+const sess = {
+  secret: 'Super secret secret',
+  resave: false,
+  saveUninitialized: false,
+};
+
+app.use(session(sess));
+
 const hbs = exphbs.create({ helpers });
 // informs express.js on which template engine to use.
 app.engine("handlebars", hbs.engine);
@@ -19,6 +29,7 @@ app.set("view engine", "handlebars");
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
+
 app.use(routes);
 
 //forces sequelize to sync on every attempt. force: true adds a DROP TABLE IF EXISTS before trying to create the table -
