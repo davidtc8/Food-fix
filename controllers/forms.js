@@ -13,7 +13,7 @@ router.get("/signup", function (req, res) {
   res.render("signUpForm", { layout: "backEnd" });
 });
 
-router.get("/calculatorII", function (req, res) {
+router.get("/calculator", function (req, res) {
   res.render("calculator", { layout: "backend" });
 });
 
