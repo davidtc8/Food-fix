@@ -13,12 +13,7 @@ router.get("/signup", function (req, res) {
   res.render("signUpForm", { layout: "backEnd" });
 });
 
-<<<<<<< HEAD
-
 router.get("/calculator", function (req, res) {
-=======
-router.get("/calculatorII", function (req, res) {
->>>>>>> d35240a460fc396ff89c87736766ea5e966cc47e
   res.render("calculator", { layout: "backend" });
 });
 
