@@ -1,5 +1,5 @@
-const { UUIDV4, Model, DataTypes } = require('sequelize');
-const sequelize = require('../config/connection');
+const { Model, DataTypes } = require("sequelize");
+const sequelize = require("../config/connection");
 
 class Soups extends Model {}
 
@@ -42,14 +42,13 @@ Soups.init(
     equivalent_composition: {
       type: DataTypes.STRING,
     },
-
   },
   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'soups',
+    modelName: "soups",
   }
 );
 

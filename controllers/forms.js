@@ -1,11 +1,6 @@
 const router = require("express").Router();
 
-// router.get("/", async (req, res) => {
-//   // TODO: Render template with Sequelize data
-//   res.render("homepage");
-// });
-
-router.get("/", function (req, res) {
+router.get("/home", function (req, res) {
   res.render("homepage", { layout: "main" });
 });
 

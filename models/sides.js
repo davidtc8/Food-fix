@@ -1,5 +1,5 @@
-const { UUIDV4, Model, DataTypes } = require('sequelize');
-const sequelize = require('../config/connection');
+const { Model, DataTypes } = require("sequelize");
+const sequelize = require("../config/connection");
 
 class Sides extends Model {}
 
@@ -19,13 +19,10 @@ Sides.init(
       type: DataTypes.DECIMAL,
       allowNull: false,
     },
-
-    Unit: {
-
     unit: {
-
       type: DataTypes.STRING,
       allowNull: false,
+      defaultValue: "cup",
     },
     cal: {
       type: DataTypes.DECIMAL,
@@ -46,14 +43,13 @@ Sides.init(
     equivalent_composition: {
       type: DataTypes.STRING,
     },
-
   },
   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'sides',
+    modelName: "sides",
   }
 );
 
