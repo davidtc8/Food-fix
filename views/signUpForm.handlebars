@@ -1,51 +1,74 @@
-<p id="description"> Fill the form to get started on your journey towards healthier eating habits!!!</p>
+<div class="main-container">
+    <form id="personal-form">
 
-<form id="survey-form">
+        <div class="form-header">
+            <h1>User Registration</h1>
+        </div>
 
-    <div class="input-headings">
+        <div class="input-headings">
 
-        <label for="name" id="name-label"> Name</label>
-        <input id="name" type="text" name="name" placeholder="What's your Name?" class="form-inputs" required /></input>
-        <br>
-        <label for="email" id="email-label"> Email</label>
-        <input id="email" type="email" name="email" placeholder="Provide a Valid Email" class="form-inputs"
-            required /></input>
-        <br>
-        <label for="number" id="number-label"> Age </label>
-        <input id="number" type="number" name="number" placeholder="Tell us your Age" min="10" max="100"
-            class="form-inputs" required /></input>
+            <div class="form-container">
+
+                <p id="description">Fill the form to get started on your journey towards healthier eating habits !!!</p>
+
+                <label for="name" id="name-label"> Name</label>
+                <input id="name" type="text" name="name" placeholder="What's your Name?" class="form-inputs"
+                    required /></input>
+
+                <label for="email" id="email-label"> Email</label>
+                <input id="email" type="email" name="email" placeholder="Provide a Valid Email" class="form-inputs"
+                    required /></input>
+
+                <label for="password" id="password-label">Password</label>
+                <input id="password" type="password" name="password" placeholder="Please enter a Password"
+                    class="form-inputs" required /></input>
+
+                <p class="more-info">Please tell us a litle more about you...</p>
+                {{!--
+                <label for="number" id="number-label"> Age </label>
+                <input id="number" type="number" name="number" placeholder="Tell us your Age" min="10" max="100"
+                    class="form-inputs" required /></input>
 
 
-        <br>
-        <label for="dropdown2" id="gender"> What's your gender? </label>
-        <select id="dropdown2" class="form-inputs">
-            <option>What's your gender?</option>
-            <option value="Male"> Male</option>
-            <option value="Female"> Female</option>
+
+                <label for="dropdown2" id="gender"> What's your gender? </label>
+                <select id="dropdown2" class="form-inputs">
+                    <option>What's your gender?</option>
+                    <option value="Male"> Male</option>
+                    <option value="Female"> Female</option>
 
 
-        </select>
+                </select>
 
 
-        <br>
-        <label for="dropdown" id="sign"> Select your Current Shape: </label>
-        <select id="dropdown" class="form-inputs">
-            <option>What's your Current Shape?</option>
-            <option value="Sedentary"> Sedentary</option>
-            <option value="Precontemplative"> Precontemplative</option>
-            <option value="Contemplative"> Contemplative</option>
-            <option value="Preparational"> Preparational</option>
-            <option value="Active"> Active</option>
-            <option value="Well-Maintained"> Well-Maintained</option>
-        </select>
-        <br>
-        <br>
-        <label for="textarea" id="textarea-one"> <b>Additional Comments </b> </label>
-        <br>
-        <textarea id="textarea" name="instructions" rows="5" cols="40"></textarea>
-        <br>
 
-        <input id="submit" type="submit" value="Submit Information" class="submit-button">
+                <label for="dropdown" id="sign"> Select your Current Shape</label>
+                <select id="dropdown" class="form-inputs">
+                    <option>What's your Current Shape?</option>
+                    <option value="Sedentary"> Sedentary</option>
+                    <option value="Precontemplative"> Precontemplative</option>
+                    <option value="Contemplative"> Contemplative</option>
+                    <option value="Preparational"> Preparational</option>
+                    <option value="Active"> Active</option>
+                    <option value="Well-Maintained"> Well-Maintained</option>
+                </select>
 
-    </div>
-</form>
+                <label for="textarea" id="textarea-one">Additional Comments</label>
+
+                <textarea id="textarea" name="instructions" rows="5" cols="40" class="form-inputs"></textarea>
+
+                --}}
+
+            </div>
+
+        </div>
+
+        <div class="form-footer">
+            <input id="submit" type="submit" value="Continue..." class="submit-button">
+        </div>
+
+    </form>
+
+</div>
+
+<script src="/js/add-user.js"></script>

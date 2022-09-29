@@ -2,13 +2,12 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 html {
   font-family: sans-serif;
 }
 
 body {
-  background-image: url("./images/wp3104899-fresh-veggies-wallpapers.jpg");
+  background-image: url("/images/wp3104899-fresh-veggies-wallpapers.jpg");
   background-size: cover;
 }
 

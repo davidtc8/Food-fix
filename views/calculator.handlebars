@@ -1,0 +1,144 @@
+<div class="main-container">
+    <form id="calorie-calculator">
+
+
+        <div class="form-header">
+            <h1>User Registration</h1>
+        </div>
+
+        <div class="main-section">
+            <div class="section01">
+
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" placeholder="Enter your age in years" required
+                    class="form-inputs" />
+
+                <div class="radio-group">
+                    <label for="sex" class="radio-title">Sex:</label>
+                    <input type="radio" name="sex" value="male" id="male" checked="checked" />
+                    <label for="male">Male</label>
+                    <input type="radio" name="sex" value="female" id="female" />
+                    <label for="female">Female</label>
+                </div>
+
+                <label>Weight (lbs)</label>
+                <input type="number" name="weight" id="weight" placeholder="Enter your weight in pounds" required
+                    class="form-inputs" />
+
+                <label>Height (inches)</label>
+                <input type="number" name="inches" id="inches" placeholder="Enter your height in inches" required
+                    class="form-inputs" />
+
+                <label>Activity Level</label>
+                <select name="activity_level" id="activity_level" required class="form-inputs">
+                    <option value="1.2">Select an Activity Level</option>
+                    <option value="1.2">Little to no exercise</option>
+                    <option value="1.375">Light exercise (1−3 days per week)</option>
+                    <option value="1.55">Moderate exercise (3−5 days per week)</option>
+                    <option value="1.725">Heavy exercise (6−7 days per week)</option>
+                    <option value="1.9">Very heavy exercise (twice per day, extra heavy
+                        workouts)</option>
+                </select>
+
+                {{!--
+                <label for="dropdown" id="sign"> Select your Current Shape</label>
+                <select id="dropdown" class="form-inputs">
+                    <option>What's your Current Shape?</option>
+                    <option value="Sedentary"> Sedentary</option>
+                    <option value="Precontemplative"> Precontemplative</option>
+                    <option value="Contemplative"> Contemplative</option>
+                    <option value="Preparational"> Preparational</option>
+                    <option value="Active"> Active</option>
+                    <option value="Well-Maintained"> Well-Maintained</option>
+                </select>
+                --}}
+
+
+            </div>
+
+            <div class="section02">
+
+                <p class="plan-text">Now, its time to determine your plan... </p>
+
+                <label>Choose Goal:</label>
+                <select name="gain_loss_amount" id="gain_loss_amount" required class="form-inputs">
+                    <option value="">Select a Goal</option>
+                    <option value="-1000">Lose 2 Pounds per Week</option>
+                    <option value="-750">Lose 1.5 Pounds per Week</option>
+                    <option value="-500">Lose 1 Pounds per Week</option>
+                    <option value="-250">Lose 0.5 Pounds per Week</option>
+                    <option value="0">Stay the Same Weight</option>
+                    <option value="250">Gain 0.5 Pound per Week</option>
+                    <option value="500">Gain 1 Pound per Week</option>
+                    <option value="750">Gain 1.5 Pounds per Week</option>
+                    <option value="1000">Gain 2 Pounds per Week</option>
+                </select>
+
+                <div class="calculate-button">
+                    <button class="submit-button" type="submit">Calculate</button>
+                </div>
+
+                {{!-- <button type="reset">Reset</button>
+                <button type="submit">Calculate</button>
+                <div id="results"></div> --}}
+
+                {{!-- <label>Protein (g)</label>
+                <input type="number" name="weight" id="protein" placeholder="Protein in grams" class="form-inputs"
+                    required />
+
+                <label>Fat (g)</label>
+                <input type="number" name="weight" id="fat" placeholder="Fat in grams" class="form-inputs" required />
+
+                <label>Carbohydrates (g)</label>
+                <input type="number" name="weight" id="carbs" placeholder="Carbs in grams" class="form-inputs"
+                    required /> --}}
+
+                <table>
+                    <tr>
+                        <th>Protein</th>
+                        <th>Fat</th>
+                        <th>Carbs</th>
+                    </tr>
+                    <tr>
+                        <td id="proteinResult">300</td>
+                        <td id="fatResult">200</td>
+                        <td id="carbsResult">100</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="proteinDown dwn">-</div>
+                            <div class="proteinUp up">+</div>
+                        </td>
+                        <td>
+                            <div class="fatDown dwn">-</div>
+                            <div class="fatUp up">+</div>
+                        </td>
+                        <td>
+                            <div class="carbsDown dwn">-</div>
+                            <div class="carbsUp up">+</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">Calories Target</th>
+                    </tr>
+                    <tr>
+                        <td colspan="3" id="caloriesResult">2,500</td>
+                    </tr>
+                </table>
+
+
+                <div id="m-results"></div>
+            </div>
+
+        </div>
+
+        <div class="form-footer">
+
+            <button class="submit-button" type="reset">Reset</button>
+        </div>
+
+
+    </form>
+</div>
+
+<script src="/js/calorieCal.js"></script>

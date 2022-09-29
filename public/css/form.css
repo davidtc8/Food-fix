@@ -1,0 +1,260 @@
+* {
+    font-family: 'Inter Tight', sans-serif;
+}
+
+body {
+    background-image: url('/images/wp3104899-fresh-veggies-wallpapers.jpg');
+    background-size: cover;
+}
+
+main {
+    position: relative;
+}
+
+/*############ HEADER SECTION ############*/
+.header {
+    padding-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+section {
+    font-family: "Asap", sans-serif;
+    line-height: 1.4;
+    width: 500px;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+
+.main-container {
+    height: 90%;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+form {
+    background: rgba(191, 127, 63, 0.8);
+    border-radius: 1rem;
+}
+
+#personal-form {
+    width: 600px;
+}
+
+
+#calorie-calculator {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2.4rem;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.section01,
+.section02 {
+    justify-content: center;
+    width: 500px;
+    min-height: 500px;
+}
+
+
+.form-header {
+    width: 100%;
+    background-image: linear-gradient(to right, #301800, #532E09, #784B1F, #532E09, #301800);
+    padding: 1.8rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    color: white;
+}
+
+.radio-group {
+    margin: 2rem 0rem;
+    padding: 0.8rem 0rem;
+    text-align: center;
+    border-bottom: #784B1F solid 1px;
+    border-top: #784B1F solid 1px;
+}
+
+.radio-title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.form-container {
+    padding: 2.4rem;
+}
+
+label {
+    text-align: left;
+    margin-bottom: 0.4rem;
+    padding-left: .2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.submit-button {
+    width: 250px;
+    padding: 0.75rem;
+    background: rgb(199, 201, 96);
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0rem 1rem 2.5rem 1rem;
+    border: #313a09 solid 4px;
+}
+
+
+.calculate-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-inputs {
+
+    display: block;
+    width: 100%;
+    height: 3rem;
+    padding: 0.6rem;
+    margin-bottom: 1.4rem;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+textarea {
+    min-height: 8rem;
+}
+
+p {
+    font-size: 22px;
+    font-weight: bolder;
+    margin: 1.4rem 0rem;
+}
+
+.plan-text {
+    border-bottom: #784B1F solid 1px;
+    padding-bottom: 0.8rem;
+    margin-bottom: 2.5rem;
+}
+
+.more-info {
+    margin-top: 60px;
+    border-top: #784B1F solid 1px;
+    padding-top: 0.1rem;
+}
+
+h1 {
+    text-align: center;
+    /* margin-bottom: 1.6rem; */
+}
+
+.form-footer {
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+
+
+table {
+    width: 100%;
+    text-align: center;
+    /* background-color: aquamarine; */
+}
+
+th {
+    background-color: rgba(145, 90, 36, 0.2);
+    font-size: 24px;
+    padding: 1rem;
+}
+
+td {
+    width: 30%;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 1rem 1rem 0.2rem 1rem;
+    /* text-align: center; */
+}
+
+td div {
+    font-size: 30px;
+    display: inline-block;
+    width: 42%;
+}
+
+.up {
+    background-color: rgba(206, 22, 22, 0.15);
+    margin-bottom: 1.2rem;
+    border: solid rgba(206, 22, 22, 0.3) 1px;
+
+}
+
+.dwn {
+    background-color: rgba(123, 192, 59, 0.2);
+    border: solid 1px rgba(63, 110, 19, 0.4);
+    margin-bottom: 1.2rem;
+}
+
+
+/*############ FOOTER SECTION ############*/
+.footer {
+    width: 100%;
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: #06283D;
+    color: white;
+
+    position: fixed;
+    bottom: 0px;
+}
+
+.footer h2 {
+    font-size: 20px;
+}

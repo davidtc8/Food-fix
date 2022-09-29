@@ -23,10 +23,16 @@
   },
   "homepage": "https://github.com/davidtc8/Food-fix#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
     "express-handlebars": "^6.0.6",
-    "joi": "^17.6.0",
-    "mysql2": "^2.3.3"
+    "joi": "^17.6.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.23.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }

@@ -19,8 +19,8 @@ app.set("view engine", "handlebars");
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
-
 app.use(routes);
+
 //forces sequelize to sync on every attempt. force: true adds a DROP TABLE IF EXISTS before trying to create the table -
 //if you force, existing tables will be overwritten.
 sequelize.sync({ force: false }).then(() => {
