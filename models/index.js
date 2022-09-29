@@ -1,13 +1,12 @@
-const User = require("./User");
-const Breakfast = require("./Breakfast");
-const breakfastart = require("./breakfastart");
+// const User = require("./User");
+// const Breakfast = require("./Breakfast");
 
-Breakfast.hasMany(breakfastart, {
-  foreignKey: "breakfast_id",
-});
+// Breakfast.hasMany(breakfastart, {
+//   foreignKey: "breakfast_id",
+// });
 
-breakfastart.belongsTo(Breakfast, {
-  foreignKey: "breakfast_id",
-});
+// breakfastart.belongsTo(Breakfast, {
+//   foreignKey: "breakfast_id",
+// });
 
-module.exports = { User, Breakfast, breakfastart };
+// module.exports = { User, Breakfast };
