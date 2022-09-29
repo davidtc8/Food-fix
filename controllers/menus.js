@@ -3,17 +3,18 @@ const breakfast = require("../models/Breakfast");
 
 // route to get all breakfasts
 //
-router.get("/", async (req, res) => {
+router.get("/menus", async (req, res) => {
   const breakfastData = await breakfast.findAll().catch((err) => {
     res.json(err);
   });
   const breakfasts = breakfastData.map((breakfast) =>
     breakfast.get({ plain: true })
   );
-  res.render("menus", { breakfasts });
+  console.log(breakfasts);
+  res.render("menus", { breakfasts, layout: "backgrounds" });
 });
 
-// route to get one dish
+// route to get one breakfast
 router.get("/menus/:id", async (req, res) => {
   try {
     const breakfastData = await breakfast.findByPk(req.params.id);
