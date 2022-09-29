@@ -2,9 +2,11 @@
     font-family: 'Inter Tight', sans-serif;
 }
 
-body {
+.image {
     background-image: url('/images/wp3104899-fresh-veggies-wallpapers.jpg');
-    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 450px;
 }
 
 main {
@@ -49,9 +51,7 @@ main {
 section {
     font-family: "Asap", sans-serif;
     line-height: 1.4;
-    width: 500px;
     margin: auto;
-    margin-top: 3rem;
 }
 
 
@@ -73,7 +73,8 @@ form {
 }
 
 #personal-form {
-    width: 600px;
+    width: 1000px;
+    border-bottom: 300px;
 }
 
 
@@ -250,8 +251,6 @@ td div {
     text-align: center;
     background-color: #06283D;
     color: white;
-
-    position: fixed;
     bottom: 0px;
 }
 
