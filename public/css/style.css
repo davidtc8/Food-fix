@@ -50,17 +50,19 @@ div {
     justify-content: center;
     align-items: center;
     position: relative;
-  background-color: #97D2EC;
-  border: none;
-  font-size: 28px;
-  color: #FFFFFF;
-  padding: 20px;
-  width: 200px;
-  text-align: center;
-  transition-duration: 0.4s;
-  text-decoration: none;
-  overflow: hidden;
-  cursor: pointer;
+    background-color: #97D2EC;
+    border: none;
+    font-size: 35px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    height: 80px;
+    bottom: 100px;
 }
 
 .login-button:after {
