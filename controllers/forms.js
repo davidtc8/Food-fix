@@ -17,6 +17,8 @@ router.get("/calculator", function (req, res) {
   res.render("calculator", { layout: "backend" });
 });
 
+
+
 module.exports = router;
 
 // router.get('/', async (req, res) => {
