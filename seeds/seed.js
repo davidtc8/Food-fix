@@ -1,10 +1,10 @@
-const sequelize = require("../config/connection");
-// const { Beverages, Breakfast, Desserts } = require('../models');
-const Breakfast = require("../models/Breakfast");
-const Desserts = require("../models/desserts");
-const Meal = require("../models/meal");
-const Sides = require("../models/sides");
-const Soups = require("../models/soups");
+const sequelize = require('../config/connection');
+// const { Beverages, Breakfast, Desserts, Meal, Sides, Soups } = require('../models');
+const Breakfast = require('../models/breakfast');
+const Desserts = require('../models/desserts');
+const Meal = require('../models/meal');
+const Sides = require('../models/sides');
+const Soups = require('../models/soups');
 
 const breakfastSeedData = require("./breakfast.json");
 const dessertsSeedData = require("./desserts.json");
@@ -40,6 +40,12 @@ const seedDatabase = async () => {
     returning: true,
   });
   process.exit(0);
+
 };
 
 seedDatabase();
+
+
+
+
+

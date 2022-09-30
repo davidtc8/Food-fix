@@ -1,122 +1,82 @@
 [
    {
-      "name": "Carne, pollo o pescado a la plancha",
-      "quantity": 1,
-      "Unit": "pieza (100g)",
-      "cal": 247.5,
-      "proteins": 21,
-      "lipids": 17.5,
-      "carbohydrates": 0,
-      "equivalent_composition": "3 AOAMAG"
+      "name": "Frutas en almíbar",
+      "quantity": 0.5,
+      "Unit": "taza (120g)",
+      "cal": 100,
+      "proteins": 0,
+      "lipids": 0,
+      "carbohydrates": 25,
+      "equivalent_composition": "1 Fruta"
    },
    {
-      "name": "Carne, pollo o pescado guisados",
-      "quantity": 100,
-      "Unit": "g",
-      "cal": 282.5,
-      "proteins": 22,
-      "lipids": 20,
-      "carbohydrates": 2,
-      "equivalent_composition": "0.5 Verdura"
-   },
-   {
-      "name": "Carne, pollo o pescado con salsas ligeras",
-      "quantity": 100,
-      "Unit": "g",
-      "cal": 270,
-      "proteins": 21,
-      "lipids": 20,
-      "carbohydrates": 0,
-      "equivalent_composition": "3 AOAMAG"
-   },
-   {
-      "name": "Carne, pollo o pescado guisados con verduras",
-      "quantity": 0.75,
-      "Unit": "taza (100g)",
-      "cal": 247.5,
-      "proteins": 20.5,
-      "lipids": 15,
-      "carbohydrates": 6,
-      "equivalent_composition": "1.5 Verdura"
-   },
-   {
-      "name": "Carne, pollo o pescado guisados con salsa picantes o adobos",
-      "quantity": 100,
-      "Unit": "g",
-      "cal": 352.5,
-      "proteins": 18.5,
-      "lipids": 25,
-      "carbohydrates": 12,
-      "equivalent_composition": "0.5 verdura"
-   },
-   {
-      "name": "Carnes empanizadas",
-      "quantity": 100,
-      "Unit": "g",
-      "cal": 350,
-      "proteins": 22,
-      "lipids": 25,
-      "carbohydrates": 7.5,
-      "equivalent_composition": "0.5 Cereal s/grasa"
-   },
-   {
-      "name": "Carne, pollo, queso con cereales",
-      "quantity": 150,
-      "Unit": "g",
-      "cal": 332.5,
-      "proteins": 15.5,
-      "lipids": 15,
-      "carbohydrates": 32,
-      "equivalent_composition": "0.5 Verdura"
-   },
-   {
-      "name": "Tostas, tamales y pizzas",
-      "quantity": 1,
-      "Unit": "pieza ",
-      "cal": 365,
-      "proteins": 14,
-      "lipids": 12.5,
-      "carbohydrates": 47,
-      "equivalent_composition": "0.5 Verdura"
-   },
-   {
-      "name": "Cereal con verdura",
-      "quantity": 150,
-      "Unit": "g",
-      "cal": 240,
-      "proteins": 13,
+      "name": "Frutas con crema o al horno con mantequilla",
+      "quantity": 0.5,
+      "Unit": "taza (120g)",
+      "cal": 125,
+      "proteins": 0,
       "lipids": 5,
-      "carbohydrates": 34,
-      "equivalent_composition": "verdura"
+      "carbohydrates": 20,
+      "equivalent_composition": "1 Fruta"
    },
    {
-      "name": "Cereal con leguminosas y queso",
+      "name": "Gelatinas de agua con fruta",
+      "quantity": 0.5,
+      "Unit": "taza (120g)",
+      "cal": 70,
+      "proteins": 0,
+      "lipids": 0,
+      "carbohydrates": 17.5,
+      "equivalent_composition": "0.5 fruta"
+   },
+   {
+      "name": "Gelatinas de leche con fruta",
+      "quantity": 0.5,
+      "Unit": "taza (120g)",
+      "cal": 145,
+      "proteins": 4.5,
+      "lipids": 4,
+      "carbohydrates": 23.5,
+      "equivalent_composition": "0.5 fruta"
+   },
+   {
+      "name": "Pan o Crepas con azúcar",
       "quantity": 2,
-      "Unit": "piezas",
-      "cal": 380,
-      "proteins": 19,
-      "lipids": 11,
-      "carbohydrates": 50,
-      "equivalent_composition": "2 cereal s/grasa"
-   },
-   {
-      "name": "Pozoles",
-      "quantity": 1,
-      "Unit": "tazón (300 ml)",
-      "cal": 240,
-      "proteins": 13,
+      "Unit": "piezas (60g)",
+      "cal": 195,
+      "proteins": 2,
       "lipids": 5,
-      "carbohydrates": 34,
-      "equivalent_composition": "0.5 Verdura"
+      "carbohydrates": 35,
+      "equivalent_composition": "1 Cereal s/ grasa"
    },
    {
-      "name": "Potajes",
-      "quantity": 1,
-      "Unit": "tazón (300 ml)",
-      "cal": 327.5,
-      "proteins": 23.5,
-      "lipids": 11,
-      "carbohydrates": 32,
-      "equivalent_composition": "0.5 Verdura"
+      "name": "Dulce de leche con huevo y azúcar",
+      "quantity": 0.5,
+      "Unit": "taza (120g)",
+      "cal": 192.5,
+      "proteins": 8,
+      "lipids": 6.5,
+      "carbohydrates": 26,
+      "equivalent_composition": "0.5 AOAMAG"
+   },
+   {
+      "name": "Pasteles, tartas y crepas con fruta",
+      "quantity": "1 rebanada",
+      "Unit": "60 g",
+      "cal": 185,
+      "proteins": 2,
+      "lipids": 5,
+      "carbohydrates": 32.5,
+      "equivalent_composition": "0.5 Fruta"
+   },
+   {
+      "name": "Arroz con leche",
+      "quantity": 0.5,
+      "Unit": "taza",
+      "cal": 185,
+      "proteins": 6.5,
+      "lipids": 4,
+      "carbohydrates": 31,
+      "equivalent_composition": "1 Cereal s/grasa"
    }
 ]

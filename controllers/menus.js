@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const breakfast = require("../models/Breakfast");
+const breakfast = require("../models/breakfast");
 
 // route to get all breakfasts
 //

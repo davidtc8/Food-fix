@@ -40,20 +40,6 @@
                         workouts)</option>
                 </select>
 
-                {{!--
-                <label for="dropdown" id="sign"> Select your Current Shape</label>
-                <select id="dropdown" class="form-inputs">
-                    <option>What's your Current Shape?</option>
-                    <option value="Sedentary"> Sedentary</option>
-                    <option value="Precontemplative"> Precontemplative</option>
-                    <option value="Contemplative"> Contemplative</option>
-                    <option value="Preparational"> Preparational</option>
-                    <option value="Active"> Active</option>
-                    <option value="Well-Maintained"> Well-Maintained</option>
-                </select>
-                --}}
-
-
             </div>
 
             <div class="section02">
@@ -78,20 +64,6 @@
                     <button class="submit-button" type="submit">Calculate</button>
                 </div>
 
-                {{!-- <button type="reset">Reset</button>
-                <button type="submit">Calculate</button>
-                <div id="results"></div> --}}
-
-                {{!-- <label>Protein (g)</label>
-                <input type="number" name="weight" id="protein" placeholder="Protein in grams" class="form-inputs"
-                    required />
-
-                <label>Fat (g)</label>
-                <input type="number" name="weight" id="fat" placeholder="Fat in grams" class="form-inputs" required />
-
-                <label>Carbohydrates (g)</label>
-                <input type="number" name="weight" id="carbs" placeholder="Carbs in grams" class="form-inputs"
-                    required /> --}}
 
                 <table>
                     <tr>
@@ -104,7 +76,7 @@
                         <td id="fatResult">200</td>
                         <td id="carbsResult">100</td>
                     </tr>
-                    <tr>
+                    {{!-- <tr>
                         <td>
                             <div class="proteinDown dwn">-</div>
                             <div class="proteinUp up">+</div>
@@ -117,7 +89,7 @@
                             <div class="carbsDown dwn">-</div>
                             <div class="carbsUp up">+</div>
                         </td>
-                    </tr>
+                    </tr> --}}
                     <tr>
                         <th colspan="3">Calories Target</th>
                     </tr>
@@ -134,7 +106,7 @@
 
         <div class="form-footer">
 
-            <button class="submit-button" type="reset">Reset</button>
+            <button id="submitData" class="submit-button" type="reset">Submit</button>
         </div>
 
 

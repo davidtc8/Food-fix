@@ -1,0 +1,235 @@
+<body>
+
+  <div class="principal">
+
+
+    <div class="menu-div">
+
+
+
+
+      <div class="objective-container">
+
+        <div class="main-header">
+          <p>It's time to buld your nutrition plan</p>
+        </div>
+
+
+        <div class="objective-header">
+
+          <div class="selected-container">
+            <div class="selected-desc header"></div>
+            <div class="selected-cal header">Calories</div>
+            <div class="selected-prot header">Protein</div>
+            <div class="selected-fat header">Fat</div>
+            <div class="selected-carbs header">Carbs</div>
+          </div>
+
+        </div>
+
+        <div class="calorie-objective">
+
+          <div class="selected-container">
+            <div id="" class="selected-desc objective">Your personal objective</div>
+            <div class="selected-cal objective">200</div>
+            <div class="selected-prot objective">200</div>
+            <div class="selected-fat objective">200</div>
+            <div class="selected-carbs objective">200</div>
+          </div>
+
+        </div>
+
+        <div class="calorie-count">
+
+          <div class="selected-container">
+            <div class="selected-desc count">Selected Dishes</div>
+            <div id="showCalories" class="selected-cal count">0</div>
+            <div id="showProteins" class="selected-prot count">0</div>
+            <div id="showFats" class="selected-fat count">0</div>
+            <div id="showCarbs" class="selected-carbs count">0</div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="menu-options">
+
+        <div id="accordion">
+
+          <h3 data-mealtype="breakfast">Breakfast</h3>
+          <div class="dish-container">
+            {{#each renderBreakfast as |dish|}}
+            <div class="dish-desc" data-mealtype="breakfast" data-id={{dish.id}} data-name={{dish.name}}
+              data-qty={{dish.quantity}} data-unit={{dish.Unit}} data-cal={{dish.cal}} data-protein={{dish.proteins}}
+              data-fat={{dish.lipids}} data-carbs={{dish.carbohydrates}}>
+              <p>{{dish.name}}
+                <br><Small>{{dish.quantity}} {{dish.Unit}}; Calories: {{dish.cal}}</Small>
+              </p>
+              <div class="add">add...</div>
+            </div>
+            {{/each}}
+          </div>
+
+          <h3 data-mealtype="soups">Soups</h3>
+          <div class="dish-container">
+
+            {{#each renderSoups as |dish|}}
+            <div class="dish-desc" data-mealtype="soups" data-id={{dish.id}} data-name={{dish.name}}
+              data-qty={{dish.quantity}} data-unit={{dish.Unit}} data-cal={{dish.cal}} data-protein={{dish.proteins}}
+              data-fat={{dish.lipids}} data-carbs={{dish.carbohydrates}}>
+              <p>{{dish.name}}
+                <br><Small>{{dish.quantity}} {{dish.Unit}}; Calories: {{dish.cal}}</Small>
+              </p>
+              <div class="add">add...</div>
+            </div>
+            {{/each}}
+
+          </div>
+
+          <h3 data-mealtype="meal">Meal</h3>
+          <div class="dish-container">
+
+            {{#each renderMeal as |dish|}}
+            <div class="dish-desc" data-mealtype="meal" data-id={{dish.id}} data-name={{dish.name}}
+              data-qty={{dish.quantity}} data-unit={{dish.Unit}} data-cal={{dish.cal}} data-protein={{dish.proteins}}
+              data-fat={{dish.lipids}} data-carbs={{dish.carbohydrates}}>
+              <p>{{dish.name}}
+                <br><Small>{{dish.quantity}} {{dish.Unit}}; Calories: {{dish.cal}}</Small>
+              </p>
+              <div class="add">add...</div>
+            </div>
+            {{/each}}
+
+
+          </div>
+
+          <h3 data-mealtype="sides">Sides</h3>
+          <div class="dish-container">
+
+            {{#each renderSides as |dish|}}
+            <div class="dish-desc" data-mealtype="sides" data-id={{dish.id}} data-qty={{dish.quantity}}
+              data-cal={{dish.cal}} data-protein={{dish.proteins}} data-fat={{dish.lipids}}
+              data-carbs={{dish.carbohydrates}}>
+              <p>{{dish.name}}
+                <br><Small>{{dish.quantity}} {{dish.Unit}}; Calories: {{dish.cal}}</Small>
+              </p>
+              <div class="add">add...</div>
+            </div>
+            {{/each}}
+
+          </div>
+
+          <h3 data-mealtype="desserts">Desserts</h3>
+          <div class="dish-container">
+
+            {{#each renderDesserts as |dish|}}
+            <div class="dish-desc" data-mealtype="desserts" data-id={{dish.id}} data-name={{dish.name}}
+              data-qty={{dish.quantity}} data-unit={{dish.Unit}} data-cal={{dish.cal}} data-protein={{dish.proteins}}
+              data-fat={{dish.lipids}} data-carbs={{dish.carbohydrates}}>
+              <p>{{dish.name}}
+                <br><Small>{{dish.quantity}} {{dish.Unit}}; Calories: {{dish.cal}}</Small>
+              </p>
+              <div class="add">add...</div>
+            </div>
+            {{/each}}
+
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="my-menu">
+
+        <div class="menu-selection">
+          <div class="selection-header">Breakfast</div>
+          <div class="selection-dish selected-breakfast">
+
+            <div class="selected-container">
+              <div class="selected-desc header">Name</div>
+              <div class="selected-qty header">Qty</div>
+              <div class="selected-cal header">Calories</div>
+              <div class="selected-prot header">Protein</div>
+              <div class="selected-fat header">Fat</div>
+              <div class="selected-carbs header">Carbs</div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="menu-selection">
+          <div class="selection-header">Soups</div>
+          <div class="selection-dish selected-soups">
+            <div class="selected-container">
+              <div class="selected-desc header">Name</div>
+              <div class="selected-qty header">Qty</div>
+              <div class="selected-cal header">Calories</div>
+              <div class="selected-prot header">Protein</div>
+              <div class="selected-fat header">Fat</div>
+              <div class="selected-carbs header">Carbs</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-selection">
+          <div class="selection-header">Meal</div>
+          <div class="selection-dish selected-meal">
+
+
+            <div class="selected-container">
+              <div class="selected-desc header">Name</div>
+              <div class="selected-qty header">Qty</div>
+              <div class="selected-cal header">Calories</div>
+              <div class="selected-prot header">Protein</div>
+              <div class="selected-fat header">Fat</div>
+              <div class="selected-carbs header">Carbs</div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="menu-selection">
+          <div class="selection-header">Sides</div>
+          <div class="selection-dish selected-sides">
+
+            <div class="selected-container">
+              <div class="selected-desc header">Name</div>
+              <div class="selected-qty header">Qty</div>
+              <div class="selected-cal header">Calories</div>
+              <div class="selected-prot header">Protein</div>
+              <div class="selected-fat header">Fat</div>
+              <div class="selected-carbs header">Carbs</div>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="menu-selection">
+          <div class="selection-header">Desserts</div>
+          <div class="selection-dish selected-desserts">
+
+            <div class="selected-container">
+              <div class="selected-desc header">Name</div>
+              <div class="selected-qty header">Qty</div>
+              <div class="selected-cal header">Calories</div>
+              <div class="selected-prot header">Protein</div>
+              <div class="selected-fat header">Fat</div>
+              <div class="selected-carbs header">Carbs</div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+  <script src="/js/menu.js"></script>
+</body>

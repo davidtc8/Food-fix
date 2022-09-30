@@ -2,7 +2,7 @@
    {
       "name": "Consomes y caldos desgrasados",
       "quantity": 1,
-      "Unit": "taza        (240 ml)",
+      "Unit": "taza (240 ml)",
       "cal": 11.25,
       "proteins": "0",
       "lipids": 1.25,
@@ -12,7 +12,7 @@
    {
       "name": "Sopas de verdura",
       "quantity": 1,
-      "Unit": "taza        (240 ml)",
+      "Unit": "taza (240 ml)",
       "cal": 60,
       "proteins": 3,
       "lipids": 2.5,
@@ -22,7 +22,7 @@
    {
       "name": "Cremas de verduras",
       "quantity": 1,
-      "Unit": "taza        (240 ml)",
+      "Unit": "taza (240 ml)",
       "cal": 97,
       "proteins": 4.97,
       "lipids": 5.14,
@@ -32,7 +32,7 @@
    {
       "name": "Sopas de cereal",
       "quantity": 1,
-      "Unit": "taza        (240 ml)",
+      "Unit": "taza (240 ml)",
       "cal": 98.78,
       "proteins": 2.5,
       "lipids": 2.5,
@@ -42,7 +42,7 @@
    {
       "name": "Sopas de cereal con verdura",
       "quantity": 1,
-      "Unit": "taza        (240 ml)",
+      "Unit": "taza (240 ml)",
       "cal": 87.5,
       "proteins": 2.5,
       "lipids": 2.5,
@@ -52,7 +52,7 @@
    {
       "name": "Cremas de cereal",
       "quantity": 1,
-      "Unit": "taza        (240 ml)",
+      "Unit": "taza (240 ml)",
       "cal": 150,
       "proteins": 6,
       "lipids": 6.5,
@@ -62,7 +62,7 @@
    {
       "name": "Sopas de leguminosas",
       "quantity": 1,
-      "Unit": "taza        (240 ml)",
+      "Unit": "taza (240 ml)",
       "cal": 141.25,
       "proteins": 6.5,
       "lipids": 5.75,
@@ -72,7 +72,7 @@
    {
       "name": "Caldos con carne",
       "quantity": 1,
-      "Unit": "taza        (240 ml)",
+      "Unit": "taza (240 ml)",
       "cal": 51.25,
       "proteins": 4.5,
       "lipids": 2.75,
@@ -92,7 +92,7 @@
    {
       "name": "Arroz y pastas",
       "quantity": 1,
-      "Unit": "taza        (195 g)",
+      "Unit": "taza (195 g)",
       "cal": 168.75,
       "proteins": 4.5,
       "lipids": 2.5,
@@ -102,7 +102,7 @@
    {
       "name": "Arroz, pastas, tortillas con verdura",
       "quantity": 1,
-      "Unit": "taza        (195 g)",
+      "Unit": "taza (195 g)",
       "cal": 175,
       "proteins": 5,
       "lipids": 2.5,
@@ -112,7 +112,7 @@
    {
       "name": "Arroz y pastas con carne y salsa cremosa",
       "quantity": 1,
-      "Unit": "taza        (210 g)",
+      "Unit": "taza (210 g)",
       "cal": 282.5,
       "proteins": 11,
       "lipids": 12.5,
@@ -122,7 +122,7 @@
    {
       "name": "Arroz, pastas, papas con salsa cremosa o fritos",
       "quantity": 1,
-      "Unit": "taza        (210 g)",
+      "Unit": "taza (210 g)",
       "cal": 207.5,
       "proteins": 4,
       "lipids": 7.5,

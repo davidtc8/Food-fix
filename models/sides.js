@@ -1,7 +1,7 @@
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
 
-class Sides extends Model {}
+class Sides extends Model { }
 
 Sides.init(
   {
@@ -19,7 +19,7 @@ Sides.init(
       type: DataTypes.DECIMAL,
       allowNull: false,
     },
-    unit: {
+    Unit: {
       type: DataTypes.STRING,
       allowNull: false,
       defaultValue: "cup",

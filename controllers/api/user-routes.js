@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { User } = require("../../models/user");
+const User = require("../../models/user");
 
 // Route for creating a new user
 router.post("/", async (req, res) => {
@@ -7,11 +7,11 @@ router.post("/", async (req, res) => {
     const dbUserData = await User.create({
       name: req.body.user_name,
       email: req.body.user_email,
-      password: req.body.user_password,
-      age: req.body.user_age,
-      gender: req.body.user_gender,
-      shape: req.body.user_shape,
+      password: req.body.user_password
+
     });
+
+    console.log('req.body.user_email', req.body.user_email)
 
     req.session.save(() => {
       req.session.loggedIn = true;
@@ -29,7 +29,7 @@ router.post("/login", async (req, res) => {
   try {
     const dbUserData = await User.findOne({
       where: {
-        email: req.body.email,
+        email: req.body.user_email,
       },
     });
 
@@ -40,7 +40,7 @@ router.post("/login", async (req, res) => {
       return;
     }
 
-    const validPassword = await dbUserData.checkPassword(req.body.password);
+    const validPassword = await dbUserData.checkPassword(req.body.user_password);
 
     if (!validPassword) {
       res
@@ -50,6 +50,7 @@ router.post("/login", async (req, res) => {
     }
 
     req.session.save(() => {
+      req.session.user_id = dbUserData.id;
       req.session.loggedIn = true;
       console.log(
         "🚀 ~ file: user-routes.js ~ line 57 ~ req.session.save ~ req.session.cookie",
@@ -59,6 +60,8 @@ router.post("/login", async (req, res) => {
       res
         .status(200)
         .json({ user: dbUserData, message: "You are now logged in!" });
+
+      document.location.replace("http://localhost:3001/clculator");
     });
   } catch (err) {
     console.log(err);
