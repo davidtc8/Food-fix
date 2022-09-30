@@ -11,8 +11,6 @@ router.post('/get-section', async (req, res) => {
         let tableName = req.body.id;
         let sectionInfo;
 
-        console.log('dewdewdewedwdewdewdew', tableName, sectionInfo)
-
         tableName == 'breakfast' ? sectionInfo = await Breakfast.findAll()
             : tableName == 'soups' ? sectionInfo = await Soups.findAll()
                 : tableName == 'meal' ? sectionInfo = await Meal.findAll()

@@ -18,7 +18,7 @@ Desserts.init(
       allowNull: false,
     },
     quantity: {
-      type: DataTypes.DECIMAL,
+      type: DataTypes.STRING,
       allowNull: false,
     },
     Unit: {
