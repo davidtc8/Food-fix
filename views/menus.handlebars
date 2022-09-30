@@ -1,13 +1,27 @@
-<div>
-  <h1>testing handlebars</h1>
+
+  
+    
+      
+      
+<div class = breakfasts>
+  <section class="card">
+    <header>Your Menu</header>
   {{#each breakfasts as |bFast|}}
-    <div class='dish col-md-5'>
-      <h1><strong is our attempt towards displaying handlebars</h1>
       <p>
-        {{bFast.id}}.
+        <img src="/images/{{bFast.filename}}" alt="breakfast picture">.
         {{bFast.name}}.
-        <img src="/images/{{bFast.filename}}" alt="breakfast picture">
+        {{bFast.id}}
+        
         {{/each}}
-      </p>
+  </p>
+  </section>
 </div>
 
+{{!-- <body>
+    <div class = breakfasts>
+    <section class='card'> 
+    <header>Your Menu</header>
+    </header>
+      <section>
+        {{{body}}}
+      </section> --}}

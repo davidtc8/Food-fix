@@ -10,8 +10,8 @@ router.get("/menus", async (req, res) => {
   const breakfasts = breakfastData.map((breakfast) =>
     breakfast.get({ plain: true })
   );
-  console.log(breakfasts);
-  res.render("menus", { breakfasts, layout: "backgrounds" });
+
+  res.render("menus", { breakfasts, layout: "menuBackground" });
 });
 
 // route to get one breakfast

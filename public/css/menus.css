@@ -1,80 +1,35 @@
-/* body {
-	font-family: 'Montserrat', sans-serif;
-	color: #333;
-	line-height: 1.6;
-}
-.pt-100{
-    padding-top:100px;
-}
-.pb-100{
-    padding-top:100px;
-}
-.mb-60 {
-	margin-bottom: 60px;
-}
-.section-title p {
-	font-size: 24px;
-	font-family: Oleo Script;
-	margin-bottom: 0px;
-	margin-top:50px;
-}
-.section-title h4 {
-	font-size: 40px;
-	text-transform: capitalize;
-	color: #FF5E18;
-	position: relative;
-	display: inline-block;
-	padding-bottom: 25px;
-}
-.section-title h4::before {
-	width: 80px;
-	height: 1.5px;
-	bottom: 0;
-	left: 50%;
-	margin-left: -40px;
-}
-.section-title h4::before, .section-title h4::after {
-	position: absolute;
-	content: "";
-	background-color: #FF5E18;
-}
-.single_menu_list img {
-	max-width: 30%;
-	position: absolute;
-	left: 0px;
-	top: 0;
-	border: 1px solid #ddd;
-	padding: 3px;
-	border-radius: 50%;
-	transition: .4s;
-}
-.menu_style1 .single_menu_list img {
-	position: static;
-	width: 100%;
-	display: block;
+* {
+	box-sizing: border-box;
+  }
+
+  body {
+	font-family: Arial;
+	margin: 0;
+  }
+
+
+  .card {
+	display: flex;
+	flex-direction: row;
+	/* Centers along the main axis determined by flex-direction */
+	justify-content: center;
+	/* Centers along the opposite axis */
+	align-items: center;
+	width: 90%;
+	/* Uses the height of the viewport */
+	height: auto;
 	margin: 0 auto;
-	margin-bottom: 45px;
-}
-.single_menu_list h4 {
-	font-size: 20px;
-	border-bottom: 1px dashed #333;
-	padding-bottom: 15px;
-	margin-bottom: 10px;
-}
-.single_menu_list h4 span {
-	float: right;
-	font-weight: bold;
-	color: #FF5E18;
-	font-style: italic;
-}
-p {
-	font-weight: 300;
-	font-size: 14px;
-}
-.menu_style1 .single_menu_list {
-	text-align: center;
-}
-.single_menu_list:hover img {
-	border-radius: 0;
-	transition: .4s;
-} */
+	border-style: solid;
+	border-width: 2px;
+  }
+
+  .card header {
+	padding: 20px;
+	background: #13293d;
+	color: #fff;
+  }
+
+  .card img  {
+	width: 100%; 
+	height: auto; 
+  }
