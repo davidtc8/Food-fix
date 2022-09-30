@@ -2,7 +2,6 @@ const sequelize = require('../config/connection');
 // const { Beverages, Breakfast, Desserts, Meal, Sides, Soups } = require('../models');
 const Breakfast = require('../models/breakfast');
 const Desserts = require('../models/desserts');
-const Beverages = require('../models/beverages');
 const Meal = require('../models/meal');
 const Sides = require('../models/sides');
 const Soups = require('../models/soups');
@@ -17,11 +16,6 @@ const seedDatabase = async () => {
   await sequelize.sync({ force: true });
 
   await Breakfast.bulkCreate(breakfastSeedData, {
-    individualHooks: true,
-    returning: true,
-  });
-
-  await Beverages.bulkCreate(beveragesSeedData, {
     individualHooks: true,
     returning: true,
   });

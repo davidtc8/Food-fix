@@ -26,7 +26,6 @@ router.get("/calculator", function (req, res) {
 
 
 router.get('/menu', async (req, res) => {
-
   try {
 
     const breakfastData = await Breakfast.findAll({ exclude: ['equivalent_composition'] });
