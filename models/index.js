@@ -1,12 +1,15 @@
-// const User = require("./User");
-// const Breakfast = require("./Breakfast");
+const User = require('./user');
+const Health = require('./health');
 
-// Breakfast.hasMany(breakfastart, {
-//   foreignKey: "breakfast_id",
-// });
 
-// breakfastart.belongsTo(Breakfast, {
-//   foreignKey: "breakfast_id",
-// });
+User.hasOne(Health, {
+    foreignKey: 'user_id',
+    onDelete: 'CASCADE',
+});
 
-// module.exports = { User, Breakfast };
+Health.belongsTo(User, {
+    foreignKey: 'user_id',
+});
+
+
+module.exports = { User, Health };

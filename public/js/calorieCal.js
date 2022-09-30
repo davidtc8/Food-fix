@@ -76,4 +76,9 @@ function calcDailyCals() {
       .html("<h3>Estimated Daily Calories: " + result + "</h3>")
       .fadeIn("fast");
   });
+
+
+
+
+
 }

@@ -1,9 +1,13 @@
-{{#each break as |bFast|}}
+<div>
+  <h1>testing handlebars</h1>
+  {{#each breakfasts as |bFast|}}
     <div class='dish col-md-5'>
+      <h1><strong is our attempt towards displaying handlebars</h1>
       <p>
         {{bFast.id}}.
-        {{bFast.name}}
+        {{bFast.name}}.
+        <img src="/images/{{bFast.filename}}" alt="breakfast picture">
         {{/each}}
       </p>
-    </div>
+</div>
 
