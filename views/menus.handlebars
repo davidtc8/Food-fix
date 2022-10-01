@@ -1,27 +1,7 @@
-
-  
-    
-      
-      
-<div class = breakfasts>
-  <section class="card">
-    <header>Your Menu</header>
-  {{#each breakfasts as |bFast|}}
-      <p>
-        <img src="/images/{{bFast.filename}}" alt="breakfast picture">.
-        {{bFast.name}}.
-        {{bFast.id}}
-        
-        {{/each}}
-  </p>
-  </section>
-</div>
-
-{{!-- <body>
-    <div class = breakfasts>
-    <section class='card'> 
-    <header>Your Menu</header>
-    </header>
-      <section>
-        {{{body}}}
-      </section> --}}
+{{#each renderFast as |random|}}
+  <div class="card"> {{random.name}}</div>
+{{/each}}
+<br />
+{{#each renderSides as |random|}}
+  <div class="card">{{random.name}}</div>
+{{/each}}
