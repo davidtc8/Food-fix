@@ -5,6 +5,7 @@ const menus = require("./menus");
 
 router.use("/", menus);
 router.use("/", forms);
+router.use("/api", apiRoutes);
 
 
 

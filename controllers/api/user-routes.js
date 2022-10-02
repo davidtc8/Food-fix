@@ -24,9 +24,11 @@ router.post("/", async (req, res) => {
   }
 });
 
+// console.log(' req.body.user_email', req.body.user_email, req.body.user_password)
 // Login
 router.post("/login", async (req, res) => {
   try {
+    console.log('\n\n req.body.user_email\n\n', req.body, req.body)
     const dbUserData = await User.findOne({
       where: {
         email: req.body.user_email,
@@ -50,18 +52,19 @@ router.post("/login", async (req, res) => {
     }
 
     req.session.save(() => {
-      req.session.user_id = dbUserData.id;
+      // req.session.user_id = dbUserData.id;
       req.session.loggedIn = true;
       console.log(
         "🚀 ~ file: user-routes.js ~ line 57 ~ req.session.save ~ req.session.cookie",
-        req.session.cookie
+        req.session.cookie,
+        req.session
       );
 
       res
         .status(200)
         .json({ user: dbUserData, message: "You are now logged in!" });
 
-      document.location.replace("http://localhost:3001/clculator");
+      // document.location.replace("http://localhost:3001/clculator");
     });
   } catch (err) {
     console.log(err);
@@ -70,14 +73,23 @@ router.post("/login", async (req, res) => {
 });
 
 // Logout
+
+
+
+
 router.post("/logout", (req, res) => {
-  if (req.session.loggedIn) {
-    req.session.destroy(() => {
-      res.status(204).end();
-    });
-  } else {
-    res.status(404).end();
-  }
+  variable = req.session.loggedIn
+  console.log('\n\nfrefrefrefre', variable, req.session)
+  res.status(200).json(req.session)
+
+
+  // if (req.session.loggedIn) {
+  //   req.session.destroy(() => {
+  //     res.status(204).end();
+  //   });
+  // } else {
+  //   res.status(404).end();
+  // }
 });
 
 module.exports = router;

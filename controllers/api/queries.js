@@ -8,7 +8,7 @@ const Desserts = require('../../models/desserts');
 
 router.post('/get-section', async (req, res) => {
     try {
-        let tableName = req.body.id;
+        let tableName = req.body.table;
         let sectionInfo;
 
         console.log('dewdewdewedwdewdewdew', tableName, sectionInfo)

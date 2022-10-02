@@ -7,6 +7,8 @@ let showFats = document.querySelector('#showFats');
 let showCarbs = document.querySelector('#showCarbs');
 
 let result;
+let table;
+selectedDishes = [];
 
 let accCal = 0;
 let accFat = 0;
@@ -70,12 +72,12 @@ const addMeal = async (e) => {
     accCarbs += Number(result[id - 1].carbohydrates);
     accProt += Number(result[id - 1].proteins);
 
-    console.log('dedewe', accCal, accCarbs, accFat, accProt)
-
     showCalories.innerHTML = accCal;
     showProteins.innerHTML = accProt;
     showFats.innerHTML = accFat;
     showCarbs.innerHTML = accCarbs;
+
+    selectedDishes.push({ table: table, id: id })
 
 
 
@@ -87,12 +89,12 @@ const addMeal = async (e) => {
 const getSectionData = async (e) => {
 
     let referenceElement = e.target
-    let id = referenceElement.dataset['mealtype'];
-    console.log('idfrefrefre', id)
+    table = referenceElement.dataset['mealtype'];
+
 
     const response = await fetch(`/api/query/get-section`, {
         method: "POST",
-        body: JSON.stringify({ id: id }),
+        body: JSON.stringify({ table: table }),
         headers: { 'Content-Type': 'application/json' },
     });
 
