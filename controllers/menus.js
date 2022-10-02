@@ -26,7 +26,7 @@ router.get("/menur", async (req, res) => {
   try {
     const breakfastData = await breakfast.findAll({
       order: Sequelize.literal("rand()"),
-      limit: 1,
+      limit: 3,
     });
     const breakfastList = breakfastData.map((random) =>
       random.get({ plain: true })
