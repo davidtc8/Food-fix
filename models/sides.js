@@ -1,7 +1,7 @@
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
 
-class Sides extends Model { }
+class Sides extends Model {}
 
 Sides.init(
   {
@@ -42,6 +42,10 @@ Sides.init(
     },
     equivalent_composition: {
       type: DataTypes.STRING,
+    },
+    filename: {
+      type: DataTypes.STRING,
+      allowNull: false,
     },
   },
   {

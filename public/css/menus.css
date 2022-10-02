@@ -13,13 +13,15 @@ section {
  
   justify-content: center;
   align-items: center; 
+  flex-wrap: wrap; 
   display: flex;  
   width: 100%; 
-  flex-wrap: wrap;  
   height: 1000px; 
   font-family: Arial;
   margin: 0;
 }
+
+
 
 .container {
   width: 400px; 
@@ -33,6 +35,8 @@ font-weight: bold;
 font-family: Poppins; 
 text-align: center; 
   }
+
+
   
 .header1 {
   background: #a4db6a;
@@ -43,9 +47,20 @@ text-align: center;
   border-style: solid; 
 
 }
+
+.header2 {
+  background: #a4db6a;
+  color: rgb(12, 11, 11);
+  width: 100%; 
+  text-align: center; 
+  padding: 10px; 
+  border-style: solid; 
+}
+
    img {
     align-items: center;
     justify-content: center;
+    
     width: 100%; 
     border-style: solid;
   }
@@ -55,5 +70,6 @@ text-align: center;
     border-top: 8px solid #bbb; 
     border-radius: 5px; 
     float: left; 
+   
     width: 100%; 
   }
