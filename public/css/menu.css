@@ -4,9 +4,11 @@
 }
 
 body {
-    background-image: url('/images/food_fix_banner.jpg');
+    background-image: url('/images/FONDO\ PARA\ TABLAS\ .jpg');
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
+    width: 100%; 
+    height: auto; 
     /* padding: 450px; */
 }
 
@@ -14,7 +16,8 @@ body {
 .principal {
 
     width: 100%;
-    min-height: 1700px;
+    height: auto; 
+    /* min-height: 1700px; */
     display: flex;
     justify-content: space-around;
 }

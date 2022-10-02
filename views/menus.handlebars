@@ -1,5 +1,7 @@
 {{#each renderFast as |random|}}
-  <div class="header1" id="header1"><header>{{random.name}}</header></div>
-  <img src="/images/{{random.filename}} " alt="{{random.name}}" />
-  <hr class="rounded" />
+  <div class="container">
+    <div class="header1" id="header1"><header>{{random.name}}</header></div>
+    <img src="/images/{{random.filename}} " alt="{{random.name}}" />
+    <hr class="rounded" />
+  </div>
 {{/each}}
