@@ -3,19 +3,25 @@
     margin: 0px
 }
 
-.image {
+body {
     background-image: url('/images/wp3104899-fresh-veggies-wallpapers.jpg');
-    width: 100%;
-    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-main {
-    position: relative;
+
+.image {
+
+    width: 100%;
+    /* height: 78%; */
 }
+
 
 /*############ HEADER SECTION ############*/
 .header {
-    padding-bottom: 14px;
+
+    padding: 18px 20px 16px 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
@@ -35,37 +41,39 @@ main {
     padding-top: 10px;
     margin-right: 14px;
     float: right;
+
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 14px;
 }
 
 .header nav ul {
     list-style-type: none;
+    color: white;
 }
 
 .header nav ul li {
     display: inline-block;
     margin-left: 18px;
+    color: white;
 }
+
+li a {
+    color: white;
+}
+
+
+/* USER REGISTRATION CONTAINER */
 
 section {
     font-family: "Asap", sans-serif;
-    line-height: 1.0;
     width: 450px;
-    margin: auto;
-    margin-top: 2rem;
+    height: fit-content;
+
 }
 
 
 .main-container {
-    min-height: 1000px;
-    margin: 6rem;
-
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-
-    /* align-items: center; */
+    height: 100%;
 
 }
 
@@ -75,9 +83,15 @@ form {
     border-radius: 1rem;
 }
 
-#personal-form {
-    width: 500px;
+
+
+.personal-form {
+    width: 450px;
+    margin: 3.5rem auto;
+    height: fit-content;
 }
+
+
 
 
 #calorie-calculator {
@@ -107,10 +121,15 @@ form {
 .form-header {
     width: 100%;
     background-image: linear-gradient(to right, #301800, #532E09, #784B1F, #532E09, #301800);
-    padding: 1.2rem;
+    padding: 1rem;
     border-top-left-radius: 0.7rem;
     border-top-right-radius: 0.7rem;
     color: white;
+}
+
+.personal-form h1 {
+    font-size: 24px;
+    margin: 0px;
 }
 
 .radio-group {
@@ -127,14 +146,14 @@ form {
 }
 
 .form-container {
-    padding: 1.6rem;
+    padding: 1.6rem 2.5rem;
 }
 
 label {
     text-align: left;
     margin-bottom: 0.3rem;
-    padding-left: .214rem;
-    font-size: 0.8rem;
+    padding-left: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -161,9 +180,10 @@ label {
 .form-inputs {
 
     display: block;
-    width: 100%;
+    width: 90%;
     height: 2rem;
     padding: 0.5rem;
+    margin: auto;
     margin-bottom: 1.2rem;
     background-color: #fff;
     border: 1px solid #ced4da;
@@ -176,9 +196,9 @@ textarea {
 }
 
 p {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bolder;
-    margin: 1.2rem 0rem;
+    margin: 1rem 0rem;
 }
 
 .plan-text {
@@ -188,20 +208,20 @@ p {
 }
 
 .more-info {
-    margin-top: 40px;
+    margin-top: 1rem;
     border-top: #784B1F solid 1px;
-    padding-top: 0.1rem;
+    padding-top: 0.2rem;
 }
 
 h1 {
     text-align: center;
-    /* margin-bottom: 1.6rem; */
+
 }
 
 .form-footer {
     width: 100%;
     display: flex;
-    /* align-items: center; */
+
     justify-content: center;
 
 }
@@ -210,7 +230,7 @@ h1 {
 table {
     width: 100%;
     text-align: center;
-    /* background-color: aquamarine; */
+
 }
 
 th {
@@ -224,7 +244,7 @@ td {
     font-size: 50px;
     font-weight: bold;
     padding: .8rem .8rem 0.2rem .8rem;
-    /* text-align: center; */
+
 }
 
 td div {
@@ -249,7 +269,7 @@ td div {
 
 /*############ FOOTER SECTION ############*/
 .footer {
-    margin-top: 6rem;
+
     width: 100%;
     padding: 15px;
     clear: both;
@@ -257,7 +277,7 @@ td div {
     text-align: center;
     background-color: #06283D;
     color: white;
-    bottom: 0px;
+
 }
 
 .footer h2 {

@@ -19,13 +19,29 @@
     <script>
         $(function () {
             $("#accordion").accordion({
-                heightStyle: "content"
+                heightStyle: "content",
+                collapsible: true,
+                active: false
             });
         });
     </script>
 </head>
 
 <body>
+
+    <header class="header-nav">
+        <h1>Food<span class="seo">Fix</span></h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#search-engine-optimization">About us</a>
+                </li>
+                <li>
+                    <a href="#online-reputation-management">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
     {{{body}}}
 

@@ -1,13 +1,7 @@
-<div>
-  <h1>testing handlebars</h1>
-  {{#each breakfasts as |bFast|}}
-    <div class='dish col-md-5'>
-      <h1><strong is our attempt towards displaying handlebars</h1>
-      <p>
-        {{bFast.id}}.
-        {{bFast.name}}.
-        <img src="/images/{{bFast.filename}}" alt="breakfast picture">
-        {{/each}}
-      </p>
-</div>
-
+{{#each renderFast as |random|}}
+  <div class="container">
+    <div class="header1" id="header1"><header>{{random.name}}</header></div>
+    <img src="/images/{{random.filename}} " alt="{{random.name}}" />
+    <hr class="rounded" />
+  </div>
+{{/each}}

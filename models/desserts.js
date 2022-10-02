@@ -1,11 +1,9 @@
-const { Model, DataTypes } = require('sequelize');
-const sequelize = require('../config/connection');
+const { Model, DataTypes } = require("sequelize");
+const sequelize = require("../config/connection");
 
-
-class Desserts extends Model { }
+class Desserts extends Model {}
 
 Desserts.init(
-
   {
     id: {
       type: DataTypes.INTEGER,
@@ -44,13 +42,17 @@ Desserts.init(
     equivalent_composition: {
       type: DataTypes.STRING,
     },
+    // filename: {
+    //   type: DataTypes.STRING,
+    //   allowNull: false,
+    // },
   },
   {
     sequelize,
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'desserts',
+    modelName: "desserts",
   }
 );
 
