@@ -8,10 +8,19 @@
 
 {{/each}}
 
+{{#each renderMeals as |random|}}
+  <div class="container">
+    <label for="header2">Meals</label>
+    <div class="header2" id="header1"><header>{{random.name}}</header></div>
+    <img src="/images/{{random.filename}} " alt="{{random.name}}" />
+    <hr class="rounded" />
+  </div>
+{{/each}}
+
 {{#each renderSides as |random|}}
   <div class="container">
-    <label for="header2">Sides</label>
-    <div class="header2" id="header1"><header>{{random.name}}</header></div>
+    <label for="header3">Sides</label>
+    <div class="header3" id="header1"><header>{{random.name}}</header></div>
     <img src="/images/{{random.filename}} " alt="{{random.name}}" />
     <hr class="rounded" />
   </div>
