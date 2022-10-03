@@ -73,7 +73,6 @@ header {
 img {
   align-items: center;
   justify-content: center;
-
   width: 100%;
   border-style: solid;
 }
@@ -83,6 +82,5 @@ hr.rounded {
   border-top: 8px solid #bbb;
   border-radius: 5px;
   float: left;
-
   width: 100%;
 }
