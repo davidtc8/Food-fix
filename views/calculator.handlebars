@@ -1,4 +1,8 @@
+{{#if loggedIn}}
+
 <div class="main-container">
+
+
     <form id="calorie-calculator">
 
 
@@ -8,6 +12,8 @@
 
         <div class="main-section">
             <div class="section01">
+
+                <p class="plan-text">Now, tell us a bit more to calculate your calorie intake... </p>
 
                 <label for="age">Age</label>
                 <input type="number" name="age" id="age" placeholder="Enter your age in years" required
@@ -44,7 +50,7 @@
 
             <div class="section02">
 
-                <p class="plan-text">Now, its time to determine your plan... </p>
+                <p class="plan-text">Finally, select your goal determine your plan... </p>
 
                 <label>Choose Goal:</label>
                 <select name="gain_loss_amount" id="gain_loss_amount" required class="form-inputs">
@@ -72,29 +78,15 @@
                         <th>Carbs</th>
                     </tr>
                     <tr>
-                        <td id="proteinResult">300</td>
-                        <td id="fatResult">200</td>
-                        <td id="carbsResult">100</td>
+                        <td id="proteinResult">-</td>
+                        <td id="fatResult">-</td>
+                        <td id="carbsResult">-</td>
                     </tr>
-                    {{!-- <tr>
-                        <td>
-                            <div class="proteinDown dwn">-</div>
-                            <div class="proteinUp up">+</div>
-                        </td>
-                        <td>
-                            <div class="fatDown dwn">-</div>
-                            <div class="fatUp up">+</div>
-                        </td>
-                        <td>
-                            <div class="carbsDown dwn">-</div>
-                            <div class="carbsUp up">+</div>
-                        </td>
-                    </tr> --}}
                     <tr>
                         <th colspan="3">Calories Target</th>
                     </tr>
                     <tr>
-                        <td colspan="3" id="caloriesResult">2,500</td>
+                        <td colspan="3" id="caloriesResult">-</td>
                     </tr>
                 </table>
 
@@ -106,11 +98,19 @@
 
         <div class="form-footer">
 
-            <button id="submitData" class="submit-button" type="reset">Submit</button>
+            <div id="submitData" class="submit-button">Save my plan...</div>
         </div>
 
 
     </form>
+
+
 </div>
+
+
+
+{{else}}
+<a class="no-session" href="/login">Please LogIn or create an Account...</a>
+{{/if}}
 
 <script src="/js/calorieCal.js"></script>

@@ -2,6 +2,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 html {
   font-family: sans-serif;
 }
@@ -80,7 +81,7 @@ label {
   font-weight: bold;
 }
 
-input[type="radio"] + label {
+input[type="radio"]+label {
   display: inline-block;
   text-transform: initial;
   font-weight: normal;
@@ -139,13 +140,15 @@ button[type="submit"] {
   color: white;
 }
 
+
+
 input:focus,
 select:focus {
   border-color: #e41a23;
 }
 
-input:focus + span::before,
-select:focus + span::before {
+input:focus+span::before,
+select:focus+span::before {
   content: "▶";
   position: absolute;
   left: -0.25rem;
@@ -160,6 +163,7 @@ select:focus + span::before {
   transform: translateY(0.25rem);
   color: #e41a23;
 }
+
 
 /*############ FOOTER SECTION ############*/
 .footer {
