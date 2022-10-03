@@ -14,7 +14,7 @@ router.get("/signup", function (req, res) {
 });
 
 router.get("/login", function (req, res) {
-  res.render("login", { layout: "backEnd" });
+  res.render("login", { layout: "backgrounds" });
 });
 
 router.get("/calculator", function (req, res) {
@@ -52,7 +52,7 @@ router.get("/menu", async (req, res) => {
 
     // const array = [breakfastList, soupsList, mealList, sidesList, dessertsList]
 
-    res.render("menu", {
+    res.render("menuAdd", {
       renderBreakfast: breakfastList,
       renderSoups: soupsList,
       renderMeal: mealList,

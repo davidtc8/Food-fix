@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200&display=swap');
-* {
-    box-sizing: border-box;
-  } 
 
-  body {
-    background-image: url('/images/opción\ B.jpg');
-    background-size: cover;
-    background-position: center;
-  }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('/images/PAGINA\ PARA\ MENÚS.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%; 
+}
 
 section {
- 
+
   justify-content: center;
-  align-items: center; 
-  flex-wrap: wrap; 
-  display: flex;  
-  width: 100%; 
-  height: 1000px; 
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  height: 1000px;
   font-family: Arial;
   margin: 0;
 }
@@ -24,61 +26,63 @@ section {
 
 
 .container {
-  width: 400px; 
-  height: auto; 
-  margin: 15px 15px 0px 0px; 
+  width: 400px;
+  height: auto;
+  margin: 15px 15px 0px 0px;
 }
 
-  
-   header {
-font-weight: bold; 
-font-family: Poppins; 
-text-align: center; 
-  }
+
+header {
+  font-weight: bold;
+  font-family: Poppins;
+  text-align: center;
+}
 
 
-  
+
 .header1 {
   background: #a4db6a;
   color: rgb(12, 11, 11);
-  width: 100%; 
-  text-align: center; 
-  padding: 10px; 
-  border-style: solid; 
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  border-style: solid;
 
 }
 
 .header2 {
   background: #a4db6a;
   color: rgb(12, 11, 11);
-  width: 100%; 
-  text-align: center; 
-  padding: 10px; 
-  border-style: solid; 
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  border-style: solid;
 }
 
 .header3 {
-    background: #a4db6a;
-    color: rgb(12, 11, 11);
-    width: 100%; 
-    text-align: center; 
-    padding: 10px; 
-    border-style: solid; 
-  }
 
-   img {
-    align-items: center;
-    justify-content: center;
-    
-    width: 100%; 
-    border-style: solid;
-  }
+  background: #a4db6a;
+  color: rgb(12, 11, 11);
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  border-style: solid;
+}
 
-  hr.rounded {
-    display: flex; 
-    border-top: 8px solid #bbb; 
-    border-radius: 5px; 
-    float: left; 
-   
-    width: 100%; 
-  }
+
+img {
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  border-style: solid;
+}
+
+hr.rounded {
+  display: flex;
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+  float: left;
+
+  width: 100%;
+}

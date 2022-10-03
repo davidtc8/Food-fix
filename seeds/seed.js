@@ -20,6 +20,11 @@ const seedDatabase = async () => {
     returning: true,
   });
 
+  // await Beverages.bulkCreate(beveragesSeedData, {
+  //   individualHooks: true,
+  //   returning: true,
+  // });
+
   await Desserts.bulkCreate(dessertsSeedData, {
     individualHooks: true,
     returning: true,

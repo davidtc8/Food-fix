@@ -61,7 +61,7 @@
    },
    {
       "name": "Pasteles, tartas y crepas con fruta",
-      "quantity": "1 rebanada",
+      "quantity": 1,
       "Unit": "60 g",
       "cal": 185,
       "proteins": 2,

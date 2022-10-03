@@ -71,13 +71,11 @@ function calcDailyCals() {
 
   calcDailyMacros(result);
 
-  $("#results").fadeOut("fast", function () {
-    $(this)
-      .html("<h3>Estimated Daily Calories: " + result + "</h3>")
-      .fadeIn("fast");
-  });
-
-
+  // $("#results").fadeOut("fast", function () {
+  //   $(this)
+  //     .html("<h3>Estimated Daily Calories: " + result + "</h3>")
+  //     .fadeIn("fast");
+  // });
 
 
 
