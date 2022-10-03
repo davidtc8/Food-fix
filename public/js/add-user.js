@@ -18,19 +18,17 @@ newFormHandler = async (event) => {
     },
   });
 
+  // console.log('\n\n dody and response', body, response.json())
 
   if (response.ok) {
-    document.location.replace("http://localhost:3001/calculator");
+    document.location.replace("/calculator");
   } else {
     alert("Failed to register");
   }
 
 
-  // document.location.assign('http://localhost:3001/calculator')
-
-
 }
 
 document
-  .querySelector("#personal-form")
+  .querySelector("#personal-info")
   .addEventListener("submit", newFormHandler);
