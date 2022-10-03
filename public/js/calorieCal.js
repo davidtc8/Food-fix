@@ -4,49 +4,17 @@ $("#calorie-calculator").submit(function (e) {
   calcDailyCals();
 });
 
-$("#macro-calculator").submit(function (e) {
+$("#submitData").click(function (e) {
   e.preventDefault();
-  calcCalsFromMacros();
+  addPlan();
 });
 
-//setting the click button reset function
-$('button[type="reset"]').click(function () {
-  $("#results").fadeOut("fast", function () {
-    $(this).html("");
-  });
+$("#logout").click(function (e) {
+  e.preventDefault();
+  logout();
 });
-//function to calculate the daily macros
-function calcDailyMacros(result) {
-  let carbs = (result * 0.4) / 4;
-  let protein = (result * 0.3) / 4;
-  let fat = (result * 0.3) / 9;
 
-  // $("#carbs").val(Math.round(carbs));
-  // $("#protein").val(Math.round(protein));
-  // $("#fat").val(Math.round(fat));
 
-  //.html() can be used to get the contents of any element.
-  //we've rounded the carb, protein and fat by calling their variables.
-  $("#carbsResult").html(Math.round(carbs));
-  $("#proteinResult").html(Math.round(protein));
-  $("#fatResult").html(Math.round(fat));
-
-  calcCalsFromMacros(carbs, protein, fat);
-}
-
-function calcCalsFromMacros(carbs, protein, fat) {
-  console.log("carbs, protein, fat", carbs, protein, fat);
-
-  let calories = carbs * 4 + protein * 4 + fat * 9;
-
-  $("#caloriesResult").html(Math.round(calories));
-
-  // $("#m-results").fadeOut("fast", function () {
-  //   $(this)
-  //     .html("<h3>Estimated Daily Calories: " + result + "</h3>")
-  //     .fadeIn("fast");
-  // });
-}
 //The parseFloat() method parses an argument (converting it to a string first if needed)
 //and returns a floating point number. I've used it here because val is multiplied by float number.
 function calcDailyCals() {
@@ -71,12 +39,96 @@ function calcDailyCals() {
 
   calcDailyMacros(result);
 
-  // $("#results").fadeOut("fast", function () {
-  //   $(this)
-  //     .html("<h3>Estimated Daily Calories: " + result + "</h3>")
-  //     .fadeIn("fast");
-  // });
+}
 
 
+//function to calculate the daily macros
+function calcDailyMacros(result) {
+  let carbs = (result * 0.4) / 4;
+  let protein = (result * 0.3) / 4;
+  let fat = (result * 0.3) / 9;
+
+
+  $("#carbsResult").html(Math.round(carbs));
+  $("#proteinResult").html(Math.round(protein));
+  $("#fatResult").html(Math.round(fat));
+
+  calcCalsFromMacros(carbs, protein, fat);
+}
+
+
+function calcCalsFromMacros(carbs, protein, fat) {
+  console.log("carbs, protein, fat", carbs, protein, fat);
+
+  let calories = carbs * 4 + protein * 4 + fat * 9;
+
+  $("#caloriesResult").html(Math.round(calories));
 
 }
+
+
+addPlan = async () => {
+
+  const age = document.querySelector("#age").value;
+  const gender = document.querySelector("#male").checked ? 'male' : 'female';
+  const weight = document.querySelector("#weight").value;
+  const height = document.querySelector("#inches").value;
+  const activity = document.querySelector("#activity_level").value;
+  const goal = document.querySelector("#gain_loss_amount").value;
+
+
+  const protein = document.querySelector("#proteinResult").innerHTML;
+  const fat = document.querySelector("#fatResult").innerHTML;
+  const carbs = document.querySelector("#carbsResult").innerHTML;
+  const calories = document.querySelector("#caloriesResult").innerHTML;
+  let user_id = 1;
+
+  console.log('\n\n<<<------------->>>', age, gender, weight, height, activity, goal, protein, fat, carbs, calories)
+
+
+  const response = await fetch(`/api/user/plan`, {
+    method: "POST",
+    body: JSON.stringify({
+      age,
+      gender,
+      weight,
+      height,
+      activity,
+      goal,
+      protein,
+      fat,
+      carbs,
+      calories,
+      user_id,
+    }),
+    headers: {
+      "Content-Type": "application/json"
+    },
+  });
+
+  // console.log('\n\n dody and response', body, response.json())
+
+  if (response.ok) {
+    document.location.replace("/menu");
+  } else {
+    alert("Failed to register");
+  }
+
+}
+
+
+logout = async () => {
+
+  const response = await fetch('/api/user/logout', {
+    method: 'POST'
+  })
+
+  if (response.ok) {
+    document.location.replace("/login");
+  } else {
+    alert("Failed to register");
+  }
+
+}
+
+document.querySelector('#logout').addEventListener("click", logout);
