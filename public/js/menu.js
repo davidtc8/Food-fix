@@ -6,6 +6,9 @@ let showProteins = document.querySelector("#showProteins");
 let showFats = document.querySelector("#showFats");
 let showCarbs = document.querySelector("#showCarbs");
 
+
+
+
 let result;
 let table;
 selectedDishes = [];
@@ -16,7 +19,7 @@ let accCarbs = 0;
 let accProt = 0;
 
 window.onload = (e) => {
-    document.querySelector('[data-mealtype="sides"]').click();
+    // document.querySelector('[data-mealtype="sides"]').click();
 
     userCount = JSON.parse(localStorage.getItem("userCount"));
     if (userCount == null || userCount) {
@@ -105,5 +108,26 @@ const getSectionData = async (e) => {
     }
 };
 
+
+
+
+logout = async () => {
+
+    const response = await fetch('/api/user/logout', {
+        method: 'POST'
+    })
+
+    if (response.ok) {
+        document.location.replace("/login");
+    } else {
+        alert("Failed to register");
+    }
+
+}
+
+
+
 addButtonArray.forEach((button) => button.addEventListener("click", addMeal));
 sectionArray.forEach((sec) => sec.addEventListener("click", getSectionData));
+
+document.querySelector('#logout').addEventListener("click", logout);

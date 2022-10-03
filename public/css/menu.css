@@ -57,7 +57,19 @@ li a {
 >>>>>>> 65ace87ddef9a2afbe7380e8b8c48bbf6af456b3
 }
 
+.main-header {
+    padding: 0.8rem;
+    font-size: 22px;
+    margin: 0px 0px 0.8rem 0px;
+    text-align: center;
 
+    border-top-left-radius: 8px;
+    border-top-left-radius: 8px;
+
+    color: white;
+    background-image: linear-gradient(to right, #667900, #778F05, #91A437, #778F05, #667900);
+
+}
 
 .principal {
     width: 100%;
@@ -209,16 +221,15 @@ li a {
     font-size: 18px;
 }
 
-.main-header {
-    padding: 0.8rem;
-    font-size: 22px;
-    margin: 0px 0px 0.8rem 0px;
-    text-align: center;
 
-    border-top-left-radius: 8px;
-    border-top-left-radius: 8px;
+.no-session {
 
-    color: white;
-    background-image: linear-gradient(to right, #667900, #778F05, #91A437, #778F05, #667900);
+    margin: 5rem;
+    padding: 3rem 5rem;
+    border-radius: 12px;
+    font-size: 25px;
+    color: black;
+    /* background-image: linear-gradient(to right, #667900, #778F05, #91A437, #778F05, #667900); */
+    border: solid gray 2px;
 
 }

@@ -1,5 +1,5 @@
 <div class="main-container">
-    <form class="personal-form">
+    <form class="personal-form" id="login-form">
 
         <div class="form-header">
             <h1>Log In</h1>
@@ -11,10 +11,6 @@
 
                 <p id="description">Welcome, its nice to see you again!!!</p>
 
-                {{!-- <label for="name" id="name-label"> Name</label>
-                <input id="name" type="text" name="name" placeholder="What's your Name?" class="form-inputs"
-                    required /></input> --}}
-
                 <label for="email" id="email-label"> Email</label>
                 <input id="email" type="email" name="email" placeholder="Provide a Valid Email" class="form-inputs"
                     required /></input>
@@ -25,13 +21,14 @@
 
                 <p class="more-info">Continue path to a healthier life!!!</p>
 
-
             </div>
 
         </div>
 
         <div class="form-footer">
             <input id="submit" type="submit" value="Continue..." class="submit-button">
+
+            <p class="more-info"> <small>if you don't have an account please</small> <a href="/signup">signup</a></p>
         </div>
 
     </form>

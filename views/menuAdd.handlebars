@@ -1,6 +1,11 @@
 <body>
 
+
+
+
   <div class="principal">
+
+    {{#if logEmail}}
 
 
     <div class="menu-div">
@@ -31,10 +36,10 @@
 
           <div class="selected-container">
             <div id="" class="selected-desc objective">Your personal objective</div>
-            <div class="selected-cal objective">200</div>
-            <div class="selected-prot objective">200</div>
-            <div class="selected-fat objective">200</div>
-            <div class="selected-carbs objective">200</div>
+            <div class="selected-cal objective">{{userObjective.calories}}</div>
+            <div class="selected-prot objective">{{userObjective.protein}}</div>
+            <div class="selected-fat objective">{{userObjective.fat}}</div>
+            <div class="selected-carbs objective">{{userObjective.carbs}}</div>
           </div>
 
         </div>
@@ -228,8 +233,16 @@
 
     </div>
 
+    {{else}}
+
+    <a class="no-session" href="/login">Please LogIn or create an Account...</a>
+
+    {{/if}}
 
   </div>
+
+
+
 
   <script src="/js/menu.js"></script>
 </body>

@@ -1,9 +1,10 @@
-const { UUIDV4, Model, DataTypes } = require('sequelize');
+const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Health extends Model { }
 
-Health.init(
+class User_plan extends Model { }
+
+User_plan.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -23,12 +24,32 @@ Health.init(
       type: DataTypes.DECIMAL,
       allowNull: false,
     },
+    height: {
+      type: DataTypes.DECIMAL,
+      allowNull: false,
+    },
     activity: {
-      type: DataTypes.STRING,
+      type: DataTypes.DECIMAL,
       allowNull: false,
     },
     goal: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.DECIMAL,
+      allowNull: false,
+    },
+    protein: {
+      type: DataTypes.DECIMAL,
+      allowNull: false,
+    },
+    fat: {
+      type: DataTypes.DECIMAL,
+      allowNull: false,
+    },
+    carbs: {
+      type: DataTypes.DECIMAL,
+      allowNull: false,
+    },
+    calories: {
+      type: DataTypes.DECIMAL,
       allowNull: false,
     },
     user_id: {
@@ -45,8 +66,8 @@ Health.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'sides',
+    modelName: 'user_plan',
   }
 );
 
-module.exports = Health;
+module.exports = User_plan;

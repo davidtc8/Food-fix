@@ -16,7 +16,7 @@ loginFormHandler = async (event) => {
 
 
         if (response.ok) {
-            document.location.replace("/calculator");
+            document.location.replace("/menu");
             // res.render('calculator', { loggedIn: req.session.loggedIn });
         } else {
             alert("Failed to register");
