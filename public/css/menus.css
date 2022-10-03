@@ -5,65 +5,25 @@
 }
 
 body {
-  background-image: url('/images/opción\ B.jpg');
+  background-image: url('/images/PAGINA\ PARA\ MENÚS.jpg');
   background-size: cover;
   background-position: center;
+  width: 100%; 
 }
-
-.header {
-
-  padding: 18px 20px 16px 20px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: #2a607c;
-  color: #ffffff;
-
-}
-
-.header h1 {
-  display: inline-block;
-  font-size: 22px;
-}
-
-.header h1 .seo {
-  color: #d9dcd6;
-}
-
-.header nav {
-  padding-top: 10px;
-  margin-right: 14px;
-  float: right;
-
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 14px;
-}
-
-.header nav ul {
-  list-style-type: none;
-  color: white;
-}
-
-.header nav ul li {
-  display: inline-block;
-  margin-left: 18px;
-  color: white;
-}
-
-li a {
-  color: white;
-}
-
 
 section {
 
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   display: flex;
   width: 100%;
-  flex-wrap: wrap;
   height: 1000px;
   font-family: Arial;
   margin: 0;
 }
+
+
 
 .container {
   width: 400px;
@@ -78,6 +38,8 @@ header {
   text-align: center;
 }
 
+
+
 .header1 {
   background: #a4db6a;
   color: rgb(12, 11, 11);
@@ -87,6 +49,26 @@ header {
   border-style: solid;
 
 }
+
+.header2 {
+  background: #a4db6a;
+  color: rgb(12, 11, 11);
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  border-style: solid;
+}
+
+.header3 {
+
+  background: #a4db6a;
+  color: rgb(12, 11, 11);
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  border-style: solid;
+}
+
 
 img {
   align-items: center;

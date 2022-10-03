@@ -7,7 +7,8 @@
       "proteins": 8,
       "lipids": 3.5,
       "carbohydrates": 20,
-      "equivalent_composition": "1 Leguminosa"
+      "equivalent_composition": "1 Leguminosa",
+      "filename": "01-frijoles-cocidos.jpg"
    },
    {
       "name": "Frijoles refritos",
@@ -17,7 +18,8 @@
       "proteins": 8,
       "lipids": 8.5,
       "carbohydrates": 20,
-      "equivalent_composition": "1 Leguminosa"
+      "equivalent_composition": "1 Leguminosa",
+      "filename": "02-frijoles-refritos.jpg"
    },
    {
       "name": "Caldo gallego",
@@ -27,7 +29,8 @@
       "proteins": 23.5,
       "lipids": 16.5,
       "carbohydrates": 20,
-      "equivalent_composition": "0.5 Verduiras"
+      "equivalent_composition": "0.5 Verduiras",
+      "filename": "03-caldo-gallego.jpg"
    },
    {
       "name": "Verduras al vapor y con limón",
@@ -37,7 +40,8 @@
       "proteins": 2,
       "lipids": "0",
       "carbohydrates": 20,
-      "equivalent_composition": "1 Verdura"
+      "equivalent_composition": "1 Verdura",
+      "filename": "04-verduras-al-vapor-con-limon.jpg"
    },
    {
       "name": "Verduras guisadas",
@@ -47,7 +51,8 @@
       "proteins": 2,
       "lipids": 2.5,
       "carbohydrates": 4,
-      "equivalent_composition": "1 Verdura"
+      "equivalent_composition": "1 Verdura",
+      "filename": "05-verduras-guisadas.jpg"
    },
    {
       "name": "Verduras a la mantequilla",
@@ -57,7 +62,8 @@
       "proteins": 2,
       "lipids": 5,
       "carbohydrates": 4,
-      "equivalent_composition": "1 Verdura"
+      "equivalent_composition": "1 Verdura",
+      "filename": "06-verduras-a-la-mantequilla.jpg"
    },
    {
       "name": "Verduras cocidas con crema, tocino o mayonesa",
@@ -67,7 +73,8 @@
       "proteins": 2,
       "lipids": 7.5,
       "carbohydrates": 4,
-      "equivalent_composition": "1 Verdura"
+      "equivalent_composition": "1 Verdura",
+      "filename": "07-verduras-crema-tocino-mayo.jpg"
    },
    {
       "name": "Verduras gratinadas",
@@ -77,7 +84,8 @@
       "proteins": 6.5,
       "lipids": 5,
       "carbohydrates": 6,
-      "equivalent_composition": "1.5 verdura"
+      "equivalent_composition": "1.5 verdura",
+      "filename": "08-verduras-gratinadas.jpg"
    },
    {
       "name": "Verdura rellena de queso",
@@ -87,7 +95,8 @@
       "proteins": 9,
       "lipids": 10,
       "carbohydrates": 4,
-      "equivalent_composition": "1 Verdura"
+      "equivalent_composition": "1 Verdura",
+      "filename": "09-verdura-rellena-queso.jpg"
    },
    {
       "name": "Verduras capeadas y en salsa",
@@ -97,7 +106,8 @@
       "proteins": 6,
       "lipids": 12.5,
       "carbohydrates": 7.75,
-      "equivalent_composition": "1.5 verdura"
+      "equivalent_composition": "1.5 verdura",
+      "filename": "10-verduras-capeadas.jpg"
    },
    {
       "name": "Ensaladas con vinagreta",
@@ -107,7 +117,8 @@
       "proteins": 2,
       "lipids": 5,
       "carbohydrates": 4,
-      "equivalent_composition": "1 Verdura"
+      "equivalent_composition": "1 Verdura",
+      "filename": "11-ensalada-vinagreta.jpg"
    },
    {
       "name": "Ensaladas con proteina y aderezo",
@@ -117,7 +128,8 @@
       "proteins": 13.5,
       "lipids": 15,
       "carbohydrates": 6,
-      "equivalent_composition": "1.5 verdura"
+      "equivalent_composition": "1.5 verdura",
+      "filename": "12-ensalada-proteina.ade.jpg"
    },
    {
       "name": "Ensalada de verduras y frutas con aderezo",
@@ -127,7 +139,8 @@
       "proteins": 2,
       "lipids": 7.5,
       "carbohydrates": 11.5,
-      "equivalent_composition": "1 Verdura"
+      "equivalent_composition": "1 Verdura",
+      "filename": "13-ensalada-verduras-fruta-aderezo.jpg"
    },
    {
       "name": "Papas guisadas o en vinagreta",
@@ -137,7 +150,8 @@
       "proteins": 3,
       "lipids": 5,
       "carbohydrates": 22.5,
-      "equivalent_composition": "1.5 Cereal s/grasa"
+      "equivalent_composition": "1.5 Cereal s/grasa",
+      "filename": "14-papas-guisadas-vinagre.jpg"
    },
    {
       "name": "Ensalada rusa",
@@ -147,6 +161,7 @@
       "proteins": 4.25,
       "lipids": 11.25,
       "carbohydrates": 16,
-      "equivalent_composition": "0.25 Verduras"
+      "equivalent_composition": "0.25 Verduras",
+      "filename": "15-ensalada-rusa.jpg"
    }
 ]

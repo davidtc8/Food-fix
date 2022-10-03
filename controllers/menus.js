@@ -3,6 +3,7 @@ const { Sequelize } = require("sequelize");
 const sequelize = require("../config/connection");
 const breakfast = require("../models/breakfast");
 const Sides = require("../models/sides");
+const Meals = require("../models/meal");
 
 // route to get all breakfasts
 //
@@ -26,7 +27,7 @@ router.get("/menur", async (req, res) => {
   try {
     const breakfastData = await breakfast.findAll({
       order: Sequelize.literal("rand()"),
-      limit: 3,
+      limit: 1,
     });
     const breakfastList = breakfastData.map((random) =>
       random.get({ plain: true })
@@ -38,9 +39,16 @@ router.get("/menur", async (req, res) => {
     });
     const sidesList = sidesData.map((random) => random.get({ plain: true }));
 
+    const mealsData = await Meals.findAll({
+      order: Sequelize.literal("rand()"),
+      limit: 1,
+    });
+    const mealsList = mealsData.map((random) => random.get({ plain: true }));
+
     res.render("menus", {
       renderFast: breakfastList,
       renderSides: sidesList,
+      renderMeals: mealsList,
       layout: "menuBackground",
     });
   } catch (err) {

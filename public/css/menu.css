@@ -6,6 +6,12 @@
 body {
     background-image: url('/images/FONDO\ PARA\ TABLAS\ .jpg');
     background-size: cover;
+<<<<<<< HEAD
+    /* background-position: center; */
+    width: 100%; 
+    height: auto; 
+   
+=======
     background-position: center;
 }
 
@@ -48,6 +54,7 @@ body {
 
 li a {
     color: white;
+>>>>>>> 65ace87ddef9a2afbe7380e8b8c48bbf6af456b3
 }
 
 .main-header {
