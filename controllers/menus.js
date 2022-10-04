@@ -23,7 +23,7 @@ const Meals = require("../models/meal");
 
 //randomizer
 
-router.get("/menur", async (req, res) => {
+router.get("/", async (req, res) => {
   try {
     const breakfastData = await breakfast.findAll({
       order: Sequelize.literal("rand()"),
