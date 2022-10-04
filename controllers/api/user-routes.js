@@ -89,8 +89,6 @@ router.post("/plan", async (req, res) => {
       where: { user_id: userId.id }
     });
 
-    console.log('\n<<<<<<<<<', userId.get({ plain: true }), existing, '>>>>>>\n')
-
     if (existing) {
 
       dbUserData = await User_plan.update(
