@@ -15,7 +15,7 @@ router.get("/signup", function (req, res) {
 });
 
 router.get("/login", function (req, res) {
-  res.render("login", { login: true, layout: "backgrounds" });
+  res.render("logIn", { login: true, layout: "backgrounds" });
 });
 
 router.get("/calculator", function (req, res) {
