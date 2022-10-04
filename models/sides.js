@@ -43,10 +43,10 @@ Sides.init(
     equivalent_composition: {
       type: DataTypes.STRING,
     },
-    filename: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
+    // filename: {
+    //   type: DataTypes.STRING,
+    //   allowNull: false,
+    // },
   },
   {
     sequelize,
