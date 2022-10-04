@@ -42,10 +42,10 @@ Meal.init(
     equivalent_composition: {
       type: DataTypes.STRING,
     },
-    filename: {
-      type: DataTypes.STRING,
-      allowNull: true,
-    },
+    // filename: {
+    //   type: DataTypes.STRING,
+    //   allowNull: true,
+    // },
   },
   {
     sequelize,
