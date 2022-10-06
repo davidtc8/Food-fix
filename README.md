@@ -5,6 +5,9 @@
   ## 🗃️ Description  
   This project will track your calories for the week based on certain parameters like "activity level", "current weight", "height", "sex" etc. Then it will allow you to select from a broad menu of meals within categories like "breakfasts", "meals", "desserts" and it will store this information in our database. 
 
+  [food Fix App](https://food-fix-app.herokuapp.com/)  
+  
+
   ![Food Fix Front Page](./public/images/readme/frontPage.png)
 
   ## Table of Content
