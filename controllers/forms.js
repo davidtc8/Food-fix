@@ -67,7 +67,7 @@ router.get("/menu", async (req, res) => {
       });
       const dessertsList = dessertsData.map((dish) => dish.get({ plain: true }));
 
-      res.render("menuAdd", {
+      const object = {
         renderBreakfast: breakfastList,
         renderSoups: soupsList,
         renderMeal: mealList,
@@ -76,7 +76,14 @@ router.get("/menu", async (req, res) => {
         userObjective: objectiveList["user_plan"],
         logEmail: req.session.email,
         layout: "menuLayout",
-      });
+      }
+
+      console.log(object.renderBreakfast)
+      console.log(object.renderSoups)
+      console.log(object.renderMeal)
+      console.log(object.renderSides)
+      console.log(object.renderDesserts)
+      res.render("menuAdd", object);
 
     } else {
       res.render("menuAdd", { layout: "menuLayout", logEmail: req.session.email })
